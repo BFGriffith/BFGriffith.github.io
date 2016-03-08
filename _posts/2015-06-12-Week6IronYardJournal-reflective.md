@@ -1,4 +1,9 @@
-# 403 Forbidden Planet (of the APIs)
+---
+layout: post
+title: Week Six &#10137; Iron Yard Reflective Journal
+---
+
+### _403 Forbidden Planet_ (of the APIs)
 
 Working with APIs (application programming interfaces) throughout week six at the Iron Yard has been daunting — and comprehending the multifarious nuances, quirks, and idiosyncrasies of various promises and Authorizations (and the asynchronous programming concepts involved) can be maddeningly complex. Taking the leap from mere web_sites_ to building even relatively simple web-_applications_ with restful APIs is a major challenge on the road to becoming a capable front-end developer. Server-side technology is not something I had studied on my own prior to my time at the Iron Yard, and even a capable reader like me with sound comprehension-skills has struggled to filter and extract essential information from API documentation in many cases. Moreover, trying to combine functionality (or even just discover endpoint information) from APIs has proved very difficult for me to grasp this week, let alone effectively implement.
 

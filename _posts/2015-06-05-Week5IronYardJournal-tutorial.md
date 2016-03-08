@@ -1,6 +1,11 @@
-# How to create simple scripts & use browser-sync efficiently...
+---
+layout: post
+title: Week Six &#10137; Iron Yard Tutorial Journal
+---
 
-Because who likes constantly hitting refresh?
+### How to create simple scripts & use browser-sync efficiently...
+
+**Because who likes constantly hitting refresh?**
 
 1. Install [browser-sync](http://www.browsersync.io/) (most conveniently with the Node.js package manager NPM)
   * `npm install -g browser-sync`

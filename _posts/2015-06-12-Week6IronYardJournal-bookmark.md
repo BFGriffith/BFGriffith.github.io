@@ -1,4 +1,10 @@
-# CSS selectors made fun!
+---
+layout: post
+title: Week Six &#10137; Iron Yard Bookmark Journal
+---
+
+### CSS selectors made fun!
+
 * During one of the earlier weeks of class at the Iron Yard, we were presented with this neat little game which is quite helpful in rapidly reviewing knowledge gained over time but perhaps poorly retained from various more extensive online CSS tutorials. In some ways, CSS is a fairly straightforward language, albeit more complex and nuanced (yet also more semantically simplified and powerful) when augmented by SASS — but, regardless, one of the trickier aspects of styling for new developers like myself can be efficiently selecting elements (including various combinations of parents, siblings, and children) to which a set of styles is intended to be applied... So, toward the end of mastering that essential capability: the game at the link below can be of great help in practicing that:
 * [CSS Diner](http://flukeout.github.io/)
 * **tl;dr** _summary_:

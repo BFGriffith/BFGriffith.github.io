@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Week One Iron Yard Journal
+title: Week One &#10137; Iron Yard Reflective Journal
 ---
 
-###Week One Iron Yard Journal — "Diving into vanilla JavaScript"
+### "Diving into vanilla JavaScript"
 
 Diving into week one of the Iron Yard has definitely been an intense but exciting experience, and is unlike any other daunting challenge I've ever attempted. Learning JavaScript is a process replete with rabbit-holes and fascinating but maddeningly complex puzzles... Nevertheless, I already feel like this program is giving me some great insights into best practices vis-à-vis efficient front-end-engineering workflows and fundamental design philosophies.
 

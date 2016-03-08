@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Growth versus Fixed Mindset
+title: Iron Yard &#10137; "Growth versus Fixed Mindset" essay
 ---
 
 1. introduction
@@ -13,7 +13,8 @@ title: Growth versus Fixed Mindset
 3. conclusion
   * processes I need to reletlessly focus on sticking to in order to facilitate and expidite this educational journey...
 
-###Draft 2
+### Draft 2
+
 Dr. Carol Dweck from Stanford University neuroscientifically contrasts two very distinct mindsets vis-à-vis human learning and explains the divergent consequences of their usually drastically different results: on the one hand, a positive attitude of enthusiastically driven learning and constant “growth” versus, on the other hand, a negative mindset of stymied and close-minded avoidance. Humans have evolved the potential to be dynamic and playful learners — and our potential for acquiring new skills, given healthy attitudes and constructive pedagogical processes, ultimately has less to do with natural gifts or inclinations than many people think... Moreover (as Soviet psychologist Lev Vygotsky posited with his concept of the “Zone of Proximal Development”), the encouraging reality is that sincerely motivated and properly challenged learners can achieve incredible acquisitions of new knowledge and advanced skill-proficiencies more quickly by progressively building on previous learning accomplishments through effectively scaffolded instruction and support.
 
 After nearly a decade of experience expertly teaching middle and high-school students at various levels of development (and favoring various learning-styles), as well as in initially learning how to teach myself (which requires a very different skill-set from mere mastery of content-knowledge), I’ve unequivocally experienced firsthand the paramount importance of *motivation* in relation to achievement. I’ve seen discouraged students “shut-down” and hinder their progress out of frustration, and I’ve occasionally been stalled myself when faced with the prospect of trying to understand daunting new concepts.

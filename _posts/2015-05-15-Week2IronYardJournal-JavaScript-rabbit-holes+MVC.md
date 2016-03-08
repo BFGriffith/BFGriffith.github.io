@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Week Two Iron Yard Journal
+title: Week Two &#10137; Iron Yard Reflective Journal
 ---
 
-### Week Two Iron Yard Journal — "JavaScript rabbit-holes & MVC"
-In week two we progressed beyond the _Buddhist-**sand-Mandala**-style_ "black-box" of jammin' in the **Terminal** **`CLI`**(command-line-interface) experimental environment of merely testing and logging rather incorporeal vanilla JavaScript in the vacuum of **node**, so to speak. What has been most fascinating for me this week is how we've now "peeled back the curtain of the internet" to finally see all three of the core languages that're the focus of this course (HTML, CSS, & JavaScript) operating together in concert (or error) in order to make various sorts of [template-websites](http://tympanus.net/codrops/category/blueprints/) display and function (or not so much, in some cases, as we struggled to coordinate even one out of three of those components at once).
+### "JavaScript rabbit-holes & **MVC**"
+
+In week two we progressed beyond the Buddhist-sand-Mandala-style "black-box" of jammin' in the **Terminal** **`CLI`**(command-line-interface) experimental environment of merely testing and logging rather incorporeal vanilla JavaScript in the vacuum of **node**, so to speak. What has been most fascinating for me this week is how we've now "peeled back the curtain of the internet" to finally see all three of the core languages that're the focus of this course (HTML, CSS, & JavaScript) operating together in concert (or error) in order to make various sorts of [template-websites](http://tympanus.net/codrops/category/blueprints/) display and function (or not so much, in some cases, as we struggled to coordinate even one out of three of those components at once).
 
 Throughout the week, we gradually entered ["the temple of DOM" (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) and became progressively more familiar and comfortable with inspecting and playing with DOM elements in **Chrome** (my browser of choice), as well as running [browser-sync](http://www.browsersync.io/) through **Terminal**. Through this sandbox process, we learned a lot about the basics of finding and selecting elements in the browser, "listening" for them with JavaScript, as well as conceptualizing the hierarchy tree of parents and children. We also installed the [**lodash**](https://lodash.com/) tool to add some extra functionality to our JavaScript...
 

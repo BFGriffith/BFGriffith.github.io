@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Week Three Iron Yard Journal
+title: Week Three &#10137; Iron Yard Reflective Journal
 ---
 
-###lessons from the Saint Petersburg Front-End-Design conference, May 2015
+### lessons from the Saint Petersburg Front-End-Design conference, May 2015
+
 * One buzzword I heard in several presentations at the conference that was new to me was discussion of cultivating **"T"-shaped** employees — and while this quality would be useful in many fields, I could definitely see why it seems especially apropos in the tech.-industry. Anyway, the visual it invokes is a basic but important concept: namely that an ideal employee has a deep-specialization in some primary capabilties or core competencies (the vertical part of the **T**), but also broad knowledge across a variety of related disciplines (the horizontal top of the **T**) in order to anticipate needs and work collaboratively with colleagues who excell at diverse specialties.
   * That said, another aspect of this metaphorical visual involves adding new deeper vertical specialties over time... For example, one might learn new programming languages, a Front-End guy might learn Back-End server-side skills — or vice-versa — or a coder might learn graphic-art and sophisticated digital design or animation skills (or vice-versa).
 * A major emphasis throughout the entire conference was on lightweight, responsively liquid, and mobile-first designs. Reducing page-weight and not using excessive dependencies or pointless flair should be considered fundamental to sound design whenever possible, and enhancements should scale with device capabilities.

@@ -1,4 +1,10 @@
-#DOC-block commentary, basic tutorial:
+---
+layout: post
+title: Week Four &#10137; Iron Yard Tutorial Journal
+---
+
+### **DOC-block commentary**, basic tutorial:
+
 This is an important piece of syntax and planning-structure that I learned this week. It works well in Atom or most other text-editors, is intuitive and easy to type (using a comment and Markdown sort of syntax), and can be used by [**jsdoc**](http://usejsdoc.org/) to create some very nice documentation... (an index of **@**-terms this format will accept are at the previous link, and a simple example is below...)
 
 ```
