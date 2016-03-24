@@ -8,7 +8,7 @@
  *    \ \_\
  *     \/_/
  * Massive credit to the creator of the "Poole" Jekyll template:
- * released under MIT license by @mdo.
+ * released under MIT license — by @mdo.
  * Learn more at:
  * https://github.com/poole/poole
  */
@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
+  font-family: 'Amaranth', sans-serif;
   font-size: 1.75rem;
 }
 h2 {
@@ -93,7 +94,7 @@ h3 {
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 /* BODY text */

@@ -14,22 +14,25 @@ Apparently there are some who believe we may eventually use **`npm`** for everyt
 Regardless, it seems most prudent and convenient so far to continue to follow the general heuristic recommended by the Iron Yard program, which is essentially to use bower for anything that's going to end up in _built_ HTML files on the front-end (that is, we ship HTML, CSS, & JavaScript)... Concurrently, another good indicator to look for is that I would prefer to use bower for anything that would require creating a link to dependency resources in `bower_components/` and require including that path script in the HTML files.
 Therefore, I would generally:
 `bower install --save ...`
-- jquery
-- modernizr
-- normalize
-- lodash
-- bootstrap
-- vue
+
+* jquery
+* modernizr
+* normalize
+* lodash
+* bootstrap
+* vue
 
 In contrast, for dependencies only used in the development process that will not ship, as well as various tools to use on the command-line, there is reason to prefer **`npm`**...
 Therefore, I would generally:
 `npm install --save-dev --link ...`
+
 * bower (might seem redundant or superflous, but this indicates to other developers what version is being used in `package.json`)
 * browser-sync
 * node-sass
 * gulp
 
 Then there's the question of what to `git ignore` and what to push up into one's repository... What follows below is not an exhaustive list, and particular folders or build-structures may have special requirements, but in many build processes we've used so far I've found it best to ignore the following directories/files:
+
 * node_modules
 * bower_components
 * .yo-rc.json

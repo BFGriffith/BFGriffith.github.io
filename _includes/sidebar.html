@@ -1,16 +1,22 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <div id="avatars_container">
+      <span><img id="portrait" src="/IMAGES/BFG_face.png" alt="portrait" height="95" width="auto">
+      <img id="avatar" src="/IMAGES/Griffith_griffin.png" alt="avatar" height="95" width="auto"></span>
+      </div>
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
+      <p class="lead"><a href="https://twitter.com/ForbesGriffith" target="_self">
+        <h2><img id="Twitter" src="/IMAGES/TwitterLOGO_icon.png" alt="Twitter" height="50px" width="auto"> @ForbesGriffith</h2></a></p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}"><span style="font-size:1.5rem;">HOME</span></a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}"><span> HOME</span></a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -21,13 +27,13 @@
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"> {{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="/Griffith_résumé.pdf" download>download résumé</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub repository</a>
+      <a class="sidebar-nav-item" href="/Griffith_résumé.pdf" download> download my résumé</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}"> (visit this site’s GitHub repo.)</a>
     </nav>
 
   </div>
