@@ -26,7 +26,7 @@
  * Update foundational and global aspects of the page.
  */
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Muli:300', Comic Sans MS, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -45,10 +45,14 @@ html {
  * out above content in mobile and later moves to the side with wider viewports.
  */
 .sidebar {
+  font-size: 1rem;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  background-image: url(/IMAGES/scaffoldingBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -73,17 +77,16 @@ html {
   font-family: 'Amaranth', sans-serif;
 }
 .sidebar-about h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .sidebar-about h2 {
+  clear: both;
   font-size: 1.1rem;
 }
-.sidebar-about h2::before {
-  content: "";
-  background-image: image(IMAGES/TwitterLOGO_icon.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  height: 10px;
+#bluebird {
+  display: inline-block;
+  height: 20px;
+  width: auto;
 }
 #avatars_container {
   position: relative;
@@ -97,12 +100,11 @@ html {
 #avatar {
   float: right;
 }
-#Twitter {
-  float: left;
-}
 
 /* sidebar NAVIGATION */
 .sidebar-nav {
+  clear: both;
+  margin-top: .5rem;
   margin-bottom: .25rem;
 }
 .sidebar-nav-item {
@@ -110,7 +112,7 @@ html {
   line-height: 1.75;
 }
 .sidebar-nav-item::before {
-  content: "\25a1";
+  content: "\25c7";
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -118,13 +120,14 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 a.sidebar-nav-item:hover::before {
-  content: "\25a0";
+  content: "\25c6";
 }
 .sidebar-nav-item.active {
   font-weight: bold;
 }
 .sidebar-nav-item.active::before {
-  content: "\25c6";
+  content: "\25a0";
+  font-weight: normal;
 }
 
 /* STICKY SIDEBAR
