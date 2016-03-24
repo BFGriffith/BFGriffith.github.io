@@ -9,13 +9,13 @@ relative_permalinks: true
 # Setup
 title:            Ben Forbes Griffith
 tagline:          'GitHub demesne'
-description:      '<p>Welcome to my <a href="https://pages.github.com/" target="_blank"><i>GitHub Pages</i></a> (powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>) development portfolio and <a href="https://BFGriffith.github.io/">blog</a>!</p><p><a href="https://twitter.com/ForbesGriffith" target="_self"><h2>@ForbesGriffith</h2></a></p>'
-url:              https://BFGriffith.github.io/
+description:      '<p>Welcome to my <a href="https://pages.github.com/" target="_blank"><i>GitHub Pages</i></a> (powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>) development portfolio and <a href="https://bfgriffith.github.io/">blog</a>!</p><p><a href="https://twitter.com/ForbesGriffith" target="_self"><h2>@ForbesGriffith</h2></a></p>'
+url:              https://bfgriffith.github.io/
 baseurl:          /
 
 author:
   name:           'Ben Forbes Griffith'
-  url:            https://BFGriffith.github.io/
+  url:            https://bfgriffith.github.io/
 
 paginate:         5
 
