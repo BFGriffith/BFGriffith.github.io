@@ -26,7 +26,7 @@
  * Update foundational and global aspects of the page.
  */
 html {
-  font-family: 'Muli:300', Comic Sans MS, sans-serif;
+  font-family: "Muli:300", "Comic Sans MS", sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -41,8 +41,8 @@ html {
 
 
 /* SIDEBAR
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
+ * Flexible banner for housing site name, intro, and "footer" content.
+ * Starts above content in mobile and later moves to the side with wider viewports.
  */
 .sidebar {
   font-size: 1rem;
@@ -83,10 +83,14 @@ html {
   clear: both;
   font-size: 1.1rem;
 }
+#T_handle {
+  text-shadow: 2px 2px 4px #00ACED !important;
+}
 #bluebird {
   display: inline-block;
   height: 20px;
   width: auto;
+  vertical-align: middle;
 }
 #avatars_container {
   position: relative;
@@ -129,6 +133,10 @@ a.sidebar-nav-item:hover::before {
   content: "\25a0";
   font-weight: normal;
 }
+#GitHub_repo {
+  font-size: .7rem;
+  vertical-align: middle;
+}
 
 /* STICKY SIDEBAR
  * Add the `sidebar-sticky` class to the sidebar's container to affix the
@@ -162,6 +170,9 @@ a.sidebar-nav-item:hover::before {
     width: 100%;
     height: 95px;
   }
+  .sidebar-about h1 {
+    font-size: 2.25rem;
+  }
 }
 
 @media (min-width: 64em) {
@@ -172,6 +183,9 @@ a.sidebar-nav-item:hover::before {
   #avatars_container {
     width: 100%;
     height: 95px;
+  }
+  .sidebar-about h1 {
+    font-size: 2.25rem;
   }
 }
 

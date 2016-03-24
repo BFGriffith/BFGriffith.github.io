@@ -41,7 +41,7 @@ body {
 }
 
 html {
-  font-family: 'Muli:300', Comic Sans MS, sans-serif;
+  font-family: "Muli:300", "Comic Sans MS", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -85,6 +85,7 @@ h1 {
   font-size: 1.75rem;
 }
 h2 {
+  font-family: 'Amaranth', sans-serif;
   margin-top: 1rem;
   font-size: 1.5rem;
 }
@@ -143,7 +144,7 @@ abbr[title] {
 /* CODE */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Menlo", "Monaco", "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -183,7 +184,7 @@ pre code {
 
 /* Gists via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: "Menlo", "Monaco", "Courier New", monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -354,7 +355,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden;
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Amaranth", sans-serif;
   color: #ccc;
   text-align: center;
 }

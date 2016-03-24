@@ -11,7 +11,7 @@
         </a>
       </h1>
       <p class="lead" id="site_description">{{ site.description }}</p>
-      <p class="lead"><a href="https://twitter.com/ForbesGriffith" target="_self">
+      <p class="lead"><a id="T_handle" href="https://twitter.com/ForbesGriffith" target="_self">
         <h2><span><img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = "> @ForbesGriffith</span></h2></a></p>
     </div>
 
@@ -33,7 +33,7 @@
       {% endfor %}
 
       <a class="sidebar-nav-item" href="/Griffith_résumé.pdf" download> download my résumé</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}"> (this site’s GitHub repo.)</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}"><span id="GitHub_repo"> (visit this site’s GitHub repository)</span></a>
     </nav>
 
   </div>
