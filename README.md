@@ -3,8 +3,11 @@
 * [GitHub Pages](https://pages.github.com/), powered by [Jekyll](http://jekyllrb.com/)
 
 ---
+# Ben Forbes Griffith’s résumé:
 ## freelance full-stack web-developer for hire:
-
+* [technical skills](#technical—skills)
+* [general professional skills](#general-professional-skills)
+* [education](#education)
 ### technical—SKILLS:
 *	working knowledge of JavaScript / ECMAScript vanilla fundamentals, plus jQuery, Lodash, AngularJS, ReactJS, & Vue.js
 *	HTML5 and CSS3+SASS (Syntactically Awesome StyleSheets)
