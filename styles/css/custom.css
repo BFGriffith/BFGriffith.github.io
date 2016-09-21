@@ -7,8 +7,8 @@
  *     \/_/\/_/`/___/> \/__,_ /\/____/
  *                /\___/
  *                \/__/
- * Massive credit to the creator of the basic "Hyde" theme
- * (supplement to the "Poole" Jekyll template):
+ * Massive credit to the creator of the basic “Hyde” theme
+ * (supplement to the “Poole” Jekyll template):
  * released under MIT license — by @mdo.
  * Learn more at:
  * https://github.com/poole/hyde
@@ -26,7 +26,7 @@
  * Update foundational and global aspects of the page.
  */
 html {
-  font-family: "Muli:300", "Comic Sans MS", sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 @media (min-width: 48em) {
   html {
