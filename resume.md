@@ -4,7 +4,7 @@ title: Mr. Griffith’s digital résumé
 ---
 ## freelance full-stack web-developer for hire:
 
-<img style="float: right;" src="/images/PP_logo-sketch.png" alt="Poementor logo" height="100px" width="100px" />
+<img style="float: right;" src="/images/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="150px" width="auto" />
 
 * [technical skills](#technical—skills)
 * [general professional skills](#general-professional-skills)
@@ -61,7 +61,7 @@ title: Mr. Griffith’s digital résumé
 * _The Iron Yard Academy_ — Orlando, Florida
   * front-end web-development — May 4 through July 24, 2015
 
-#### Coding-Tutorials:
+##### Coding-Tutorials:
 * CodeSchool, Treehouse, Code Academy, Khan Academy, various O’Reilly eBooks, etc.
 
 #### Graduate School:
@@ -75,7 +75,7 @@ title: Mr. Griffith’s digital résumé
 
 ---
 
-#### Social-Studies Teacher:
+### Social-Studies Teacher:
 
 * grades 9-12 (August, 2005 through June, 2012)
 * _New Dimensions High School_ — 4900 Old Pleasant Hill Road, Kissimmee, FL 34759
@@ -84,7 +84,7 @@ title: Mr. Griffith’s digital résumé
   *	Well trained in curricular and lesson design and research-based teaching techniques at the graduate level (and subsequently enhanced by multifarious inservice workshops over seven years of professionally teaching high school social studies). Skilled at differentiating and individuating instruction as well as effectively scaffolding lessons to keep students of all levels optimally challenged, encouraged, supported, and rapidly progressing in their zones of proximal development.
   *	Faculty coach / facilitator for both the Chess club and the Fine-Arts club (mostly teaching drawing and painting, including advanced techniques of perspective, proportion, composition, blending, and shading) for seven years. Solid fine-arts and visual-design liberal-arts educational background.
 
-##### Substitute-Teacher:
+#### Substitute-Teacher:
 
 * Kelly Services — _Orange County Public Schools_
 * November, 2012 through February 2013 and October 9, 2013 through September 2014
