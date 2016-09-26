@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mr. Griffith’s digital résumé
+title: Mr. Griffith’s résumé
 ---
 ## freelance full-stack web-developer for hire:
 
@@ -15,7 +15,7 @@ title: Mr. Griffith’s digital résumé
 
 ### <a name="technical—skills"></a>technical SKILLS:
 
-*	working knowledge of JavaScript / ECMAScript vanilla fundamentals, plus jQuery, Lodash, AngularJS, ReactJS, & Vue.js
+*	working knowledge of JavaScript / ECMAScript “vanilla” fundamentals, plus jQuery, Lodash, AngularJS, ReactJS, & Vue.js
 *	HTML5 and CSS3+SASS (Syntactically Awesome StyleSheets)
   *	can markup any website design, pixel perfect
   *	familiar with the ease and convenience of Bootstrap, or similar frameworks, but can markup sites lightweight from scratch
@@ -49,7 +49,7 @@ title: Mr. Griffith’s digital résumé
 *	semi-fluent: French — as well as a good working knowledge of etymology, especially Greek and Latin roots, plus philosophical symbolic logic
 *	competent visual-arts skills: with pencils (whether color or grayscale) as perhaps my best medium, but some aptitude with paints as well
 *	a good understanding of art history, proportions, perspective, shading-techniques, color-theory, etc.
-*	a classically trained baritone singing voice!
+*	a classically trained baritone singing voice! &#128578;
 
 ---
 
@@ -87,15 +87,15 @@ title: Mr. Griffith’s digital résumé
 #### Substitute-Teacher:
 
 * Kelly Services — _Orange County Public Schools_
-* November, 2012 through February 2013 and October 9, 2013 through September 2014
+  * November, 2012 through February 2013 and October 9, 2013 through September 2014
 
 ---
 
 ### CERTIFICATION:
 
 * Florida Department of Education: _Professional Certificate_
-* _Social Science_, grades 6-12 — and _English_, grades 6-12
-* D.O.E. number 987287 (valid through June 30, 2018)
+  * _Social Science_, grades 6-12 — and _English_, grades 6-12
+  * D.O.E. number 987287 (valid through June 30, 2018)
 
 ---
 

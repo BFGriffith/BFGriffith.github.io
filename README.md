@@ -16,7 +16,7 @@
 
 ### <a name="technical—skills"></a>technical SKILLS:
 
-* working knowledge of JavaScript / ECMAScript vanilla fundamentals, plus jQuery, Lodash, AngularJS, ReactJS, & Vue.js
+* working knowledge of JavaScript / ECMAScript “vanilla” fundamentals, plus jQuery, Lodash, AngularJS, ReactJS, & Vue.js
 * HTML5 and CSS3+SASS (Syntactically Awesome StyleSheets)
   * can markup any website design, pixel perfect
   * familiar with the ease and convenience of Bootstrap, or similar frameworks, but can markup sites lightweight from scratch
@@ -50,7 +50,7 @@
 * semi-fluent: French — as well as a good working knowledge of etymology, especially Greek and Latin roots, plus philosophical symbolic logic
 * competent visual-arts skills: with pencils (whether color or grayscale) as perhaps my best medium, but some aptitude with paints as well
 * a good understanding of art history, proportions, perspective, shading-techniques, color-theory, etc.
-* a classically trained baritone singing voice!
+* a classically trained baritone singing voice! &#128578;
 
 ---
 

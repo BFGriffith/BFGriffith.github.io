@@ -5,13 +5,18 @@ title: ABOUT BFGriffith
 Welcome to the *[GitHub Pages](https://pages.github.com/)* (powered by [Jekyll](http://jekyllrb.com)) portfolio and blog of:
 
 ### [Ben Forbes Griffith](https://github.com/BFGriffith) &#10137; [@ForbesGriffith](https://twitter.com/ForbesGriffith)
+
+<img style="float: right;" src="/images/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="150px" width="auto" />
 <p class="message">
 “full-stack” web-developer for hire
 </p>
 * [contact me](#contact-the-author)
 
-# *portfolio* of showcase PROJECTS:
-<img style="float: left;" src="/images/PP_logo-sketch.png" alt="Poementor logo" height="24px" width="24px" /> [**Poementor**](https://poem-patterns.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/Poem-Patterns)
+# links to showcase PROJECTS:
+
+<img style="float: right;" src="/images/PP_logo-sketch.png" alt="Poementor logo" height="24px" width="24px" />
+
+- [**Poementor**](https://poem-patterns.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/Poem-Patterns)
 
 - [**Spaced-Repetition**](https://repetition-spacing.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/spaced-repetition)
 
@@ -24,7 +29,7 @@ Welcome to the *[GitHub Pages](https://pages.github.com/)* (powered by [Jekyll](
   - Node.js + Express + Handlebars — practice/demo MVC with “burger consumption” theme
 - [**FriendFinder** Express practice](https://github.com/BFGriffith/FriendFinder-Express) — [GitHub repository](https://github.com/BFGriffith/FriendFinder-Express)
   - Express framework compatibility-based “Friend Finder” application
-- [**“Bamazon”** MySQL practice](https://github.com/BFGriffith/Bamazon-MySQL) — [GitHub repository](https://github.com/BFGriffith/Bamazon-MySQL)
+- [**“Bamazon”** MySQL eCommerce practice](https://github.com/BFGriffith/Bamazon-MySQL) — [GitHub repository](https://github.com/BFGriffith/Bamazon-MySQL)
   - a MySQL/node.js application that takes “orders” from “customers” and depletes the “store’s” supplies, tracks these product “sales” across departments, and provides a summary of the “highest-grossing” departments in the “store”...
 - [NODE **“LiriBOT”**](https://node-liribot.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/NODE-LiriBOT)
   - command-line node.js app that takes in parameters and gives back data using several APIs
@@ -47,13 +52,14 @@ Welcome to the *[GitHub Pages](https://pages.github.com/)* (powered by [Jekyll](
 
 ### links to pending major projects still in the process of development:
 - [**Poementor**, “M.E.A.N.-stack” version](https://github.com/BFGriffith/Poementor)
+  - plus perhaps also a mobile version using Ionic and Cordova
 - [The **Fallacious Logic Lexicon**](https://github.com/BFGriffith/fallacious-logic-lexicon)
 - [**Recipe-Quest**](https://github.com/BFGriffith/Recipe-Quest)
 - [**Daily-Bias News**](https://github.com/BFGriffith/Daily-Bias)
 - [**Cyvasse**](https://github.com/BFGriffith/Cyvasse)
 
 # CONTACT the author:
-Have questions? Feel free to **[ask me on Twitter](https://twitter.com/ForbesGriffith)** or [send me an **email**](mailto:benjaminforbesgriffith@gmail.com).
+Have questions or want to collaborat on a project? Feel free to **[ask me on Twitter](https://twitter.com/ForbesGriffith)** or [send me an **email**](mailto:benjaminforbesgriffith@gmail.com).
 
 Thanks for reading!
 <hr>
