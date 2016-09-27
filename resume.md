@@ -4,7 +4,7 @@ title: Mr. Griffith’s résumé
 ---
 ## freelance full-stack web-developer for hire:
 
-<img style="float: right;" src="/images/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="150px" width="auto" />
+<img style="float: right;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="150px" width="auto" />
 
 * [technical skills](#technical—skills)
 * [general professional skills](#general-professional-skills)
