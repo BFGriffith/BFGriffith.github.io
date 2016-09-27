@@ -6,7 +6,7 @@ Welcome to the *[GitHub Pages](https://pages.github.com/)* (powered by [Jekyll](
 
 ### [Ben Forbes Griffith](https://github.com/BFGriffith) &#10137; [@ForbesGriffith](https://twitter.com/ForbesGriffith)
 
-<img style="float: right;" src="/images/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="150px" width="auto" />
+<img style="float: right;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="150px" width="auto" />
 <p class="message">
 “full-stack” web-developer for hire
 </p>
