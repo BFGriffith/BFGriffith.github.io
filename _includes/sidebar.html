@@ -1,16 +1,14 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <div id="avatars_container">
-      <span><img id="portrait" src="/IMAGES/BFG_face.png" alt="portrait" height="95" width="auto">
-      <img id="avatar" src="/IMAGES/Griffith_griffin.png" alt="avatar" height="95" width="auto"></span>
-      </div>
+      
       <h1>
+        <img style="float: right;" id="avatar" src="/IMAGES/Griffith_griffin.png" alt="avatar" height="90px" width="auto">
         <a href="https://bfgriffith.github.io/about/">
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead" id="site_description">{{ site.description }}</p>
+      <p style="clear: both;" class="lead" id="site_description">{{ site.description }}</p>
       <p class="lead"><a id="T_handle" href="https://twitter.com/ForbesGriffith" target="_self">
         <h2><span><img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = "> @ForbesGriffith</span></h2></a></p>
     </div>
@@ -32,7 +30,7 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="/Griffith_résumé.pdf" download> download my résumé</a>
+      <a class="sidebar-nav-item" href="/Griffith_résumé.pdf" download> download résumé</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}"><span id="GitHub_repo"> (visit this site’s GitHub repository)</span></a>
     </nav>
 

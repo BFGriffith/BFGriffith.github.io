@@ -1,12 +1,12 @@
-# Dependencies
+# dependencies
 markdown:         kramdown
 highlighter:      pygments
 
-# Permalinks
+# permalinks
 permalink:        pretty
 # relative_permalinks: true
 
-# Setup
+# setup
 title:            Ben Forbes Griffith
 tagline:          'GitHub demesne'
 description:      '<p>Welcome to my <a href="https://pages.github.com/" target="_blank"><i>GitHub Pages</i></a> (powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>) <a href="https://bfgriffith.github.io/about/">development portfolio</a> and <a href="https://bfgriffith.github.io/">blog</a>!</p>'
@@ -19,8 +19,8 @@ author:
 
 paginate:         5
 
-# Custom vars
-version:          0.0.1
+# custom variables
+version:          1.0.0
 
 github:
   repo:           https://github.com/BFGriffith/BFGriffith.github.io
