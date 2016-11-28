@@ -39,9 +39,8 @@ html {
   }
 }
 
-
 /* SIDEBAR
- * Flexible banner for housing site name, intro, and "footer" content.
+ * Flexible banner for housing site name, intro, and “footer” content.
  * Starts above content in mobile and later moves to the side with wider viewports.
  */
 .sidebar {
@@ -50,7 +49,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
-  background-image: url(/IMAGES/scaffoldingBG.png);
+  background-image: url(/IMAGES/wood_sidebar.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -104,6 +103,11 @@ html {
 #avatar {
   float: right;
 }
+#siteNameTitle {
+  color: white;
+  text-shadow: 2px 2px 4px #2E2E2E !important;
+  text-align: center;
+}
 
 /* sidebar NAVIGATION */
 .sidebar-nav {
@@ -114,6 +118,7 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  text-shadow: 2px 2px 4px #2E2E2E !important;
 }
 .sidebar-nav-item::before {
   content: "\25c7";
@@ -188,7 +193,6 @@ a.sidebar-nav-item:hover::before {
     font-size: 2.25rem;
   }
 }
-
 
 /* optional REVERSE-LAYOUT
  * Flip the orientation of the page by placing the `.sidebar` on the right.

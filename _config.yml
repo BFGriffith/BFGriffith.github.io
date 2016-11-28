@@ -9,7 +9,7 @@ permalink:        pretty
 # setup
 title:            Ben Forbes Griffith
 tagline:          'GitHub demesne'
-description:      '<p>Welcome to my <a href="https://pages.github.com/" target="_blank"><i>GitHub Pages</i></a> (powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>) <a href="https://bfgriffith.github.io/about/">development portfolio</a> and <a href="https://bfgriffith.github.io/">blog</a>!</p>'
+description:      '<p><a href="https://bfgriffith.github.io/about/">web-development portfolio</a> and <a href="https://bfgriffith.github.io/">blog</a></p>'
 url:              https://bfgriffith.github.io/
 baseurl:          /
 
