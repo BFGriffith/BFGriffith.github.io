@@ -59,7 +59,7 @@ Welcome to this *[GitHub Pages](https://pages.github.com/)* (powered by [Jekyll]
 - [**Cyvasse**](https://github.com/BFGriffith/Cyvasse)
 
 # CONTACT the author:
-Have questions or want to collaborate on a project? Feel free to **[ask me on Twitter](https://twitter.com/ForbesGriffith)** or [send me an **email**](mailto:benjaminforbesgriffith@gmail.com).
+<p class="message">Have questions or want to collaborate on a project? Feel free to <a href="https://twitter.com/ForbesGriffith" target="_blank">ask me on Twitter</a> or <a href="mailto:benjaminforbesgriffith@gmail.com">send me an <strong>email</strong>.</a></p>
 
 Thanks for reading!
 <hr>

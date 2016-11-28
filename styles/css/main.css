@@ -41,7 +41,7 @@ body {
 }
 
 html {
-  font-family: "Muli:300", "Comic Sans MS", sans-serif;
+  font-family: 'Poppins', 'Andika', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -79,21 +79,21 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Comfortaa', 'Rajdhani', 'Amaranth', sans-serif;
   font-size: 1.75rem;
 }
 h2 {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Comfortaa', 'Rajdhani', 'Amaranth', sans-serif;
   margin-top: 1rem;
   font-size: 1.5rem;
 }
 h3 {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Comfortaa', 'Rajdhani', 'Amaranth', sans-serif;
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Comfortaa', 'Rajdhani', 'Amaranth', sans-serif;
   margin-top: 1rem;
   font-size: 1.1rem;
 }
@@ -144,7 +144,7 @@ abbr[title] {
 /* CODE */
 code,
 pre {
-  font-family: "Menlo", "Monaco", "Courier New", monospace;
+  font-family: 'Space Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
 }
 code {
   padding: .25em .5em;
@@ -184,7 +184,7 @@ pre code {
 
 /* Gists via GitHub Pages */
 .gist .gist-file {
-  font-family: "Menlo", "Monaco", "Courier New", monospace !important;
+  font-family: 'Space Mono', 'Menlo', 'Courier New', monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -355,7 +355,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden;
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Amaranth", sans-serif;
+  font-family: 'Rajdhani', 'Amaranth', sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -365,7 +365,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   padding: 1rem;
   border: 1px solid #eee;
-  background-color: #E6E2DA;
+  /*background-color: #E6E2DA;*/
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
