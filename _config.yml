@@ -7,20 +7,21 @@ permalink:        pretty
 # relative_permalinks: true
 
 # setup
-title:            Ben Forbes Griffith
-tagline:          'GitHub demesne'
-description:      '<p>Welcome to my <a href="https://pages.github.com/" target="_blank"><i>GitHub Pages</i></a> (powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>) <a href="https://bfgriffith.github.io/about/">development portfolio</a> and <a href="https://bfgriffith.github.io/">blog</a>!</p>'
+title:            'B.F.G.'
+tagline:          'online demesne'
+description:      '<a class="siteDescriptionLink" href="">personal internet demesne</a>,<br><a class="siteDescriptionLink" href="https://bfgriffith.github.io/Professional-Portfolio/">web-development</a> and<br><a class="siteDescriptionLink" href="https://bfgriffith.github.io/writing-portfolio/">creative-writing</a> portfolios,<br>and wide-ranging <a class="siteDescriptionLink" href="https://bfgriffith.github.io/blog-archive/">blog</a>'
 url:              https://bfgriffith.github.io/
 baseurl:          /
 
 author:
-  name:           'Ben Forbes Griffith'
+  name:           'B.F. Griffith'
   url:            https://bfgriffith.github.io/
 
-paginate:         5
+paginate:         1
+paginate_path:    "/coding-blog/page:num/"
 
 # custom variables
-version:          1.0.0
+version:          1.1.0
 
-github:
+github:           
   repo:           https://github.com/BFGriffith/BFGriffith.github.io

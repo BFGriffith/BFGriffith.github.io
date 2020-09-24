@@ -7,7 +7,8 @@
  *     \/_/\/_/`/___/> \/__,_ /\/____/
  *                /\___/
  *                \/__/
- * Massive credit to the creator of the basic “Hyde” theme
+ * Massive credit to the creator of 
+ * the basic “Hyde” theme
  * (supplement to the “Poole” Jekyll template):
  * released under MIT license — by @mdo.
  * Learn more at:
@@ -26,7 +27,7 @@
  * Update foundational and global aspects of the page.
  */
 html {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Poppins', 'Andika', sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -39,9 +40,16 @@ html {
   }
 }
 
+/*#page_404:before {
+  background-color: black;
+  background-image: url("/IMAGES/Death-Star_404page-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}*/
 
 /* SIDEBAR
- * Flexible banner for housing site name, intro, and "footer" content.
+ * Flexible banner for housing site name, intro, and “footer” content.
  * Starts above content in mobile and later moves to the side with wider viewports.
  */
 .sidebar {
@@ -50,7 +58,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
-  background-image: url(/IMAGES/scaffoldingBG.png);
+  background-image: url(/IMAGES/wood_sidebar.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -74,7 +82,7 @@ html {
 .sidebar-about h1, h2 {
   color: #fff;
   margin-top: 0;
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Londrina Shadow', 'Rajdhani', sans-serif;
 }
 .sidebar-about h1 {
   font-size: 2.5rem;
@@ -91,6 +99,7 @@ html {
   height: 20px;
   width: auto;
   vertical-align: middle;
+  margin-bottom: 0;
 }
 #avatars_container {
   position: relative;
@@ -104,6 +113,25 @@ html {
 #avatar {
   float: right;
 }
+#siteNameTitle {
+  color: white;
+  text-shadow: 2px 2px 4px #2E2E2E !important;
+  text-align: center;
+  font-size: 1.9rem;
+}
+#site_description, a.siteDescriptionLink {
+  text-align: center !important;
+  clear: both;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: white;
+  margin-bottom: 0;
+}
+a.siteDescriptionLink:hover,
+a.siteDescriptionLink:focus {
+  text-decoration: none;
+  font-weight: bold;
+}
 
 /* sidebar NAVIGATION */
 .sidebar-nav {
@@ -113,7 +141,8 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px #2E2E2E !important;
 }
 .sidebar-nav-item::before {
   content: "\25c7";
@@ -128,14 +157,12 @@ a.sidebar-nav-item:hover::before {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  outline: 1px solid #303030;
+  text-shadow: 2px 2px 4px #FFFFFF;
 }
 .sidebar-nav-item.active::before {
   content: "\25a0";
   font-weight: normal;
-}
-#GitHub_repo {
-  font-size: .7rem;
-  vertical-align: middle;
 }
 
 /* STICKY SIDEBAR
@@ -188,7 +215,6 @@ a.sidebar-nav-item:hover::before {
     font-size: 2.25rem;
   }
 }
-
 
 /* optional REVERSE-LAYOUT
  * Flip the orientation of the page by placing the `.sidebar` on the right.
