@@ -4,7 +4,30 @@ title: "404: Page not found"
 permalink: 404.html
 ---
 
-<div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we’ve misplaced that URL, or it’s pointing to something that doesn’t exist. <a href="{{ site.baseurl }}">Head back home to try finding it again?</a></p>
+<style type="text/css">
+	#Death-Star404 {
+	  position: fixed; 
+	  top: 0; 
+	  left: 0; 
+	  /* preserve aspect ratio */
+	  min-width: 100vw;
+	  max-height: 100vh;
+	  border-radius: 0;
+	}
+	html {
+		background-color: #1c1c1c;/*dark-grey*/
+		background-repeat: all;
+	}
+	.sidebar { display: none; }
+	@media only screen and (max-device-width: 1025px) and (orientation: portrait) {
+		#Death-Star404 {
+			height: auto;
+			min-height: auto;
+		}
+	}
+</style>
+<div id="page_404">
+	  <a href="{{ site.baseurl }}">
+			<img id="Death-Star404" src="/IMAGES/Death-Star_404page-image_16-9.jpg" alt="404 image" title="“Everything’s under control. Situation normal... we had a slight weapons malfunction and have misplaced the URL you were looking for, or it’s pointing to a mystical energy field that doesn’t exist, but... everything’s perfectly all right now. We’re fine. We’re all fine here now, thank you. How are you? Would you like to RETURN to witness the power of the fully armed and operational homepage, stretch out with your feelings, stay on target, and try navigating to the pitiful little post or page you were seeking again?”" />
+		</a>
 </div>

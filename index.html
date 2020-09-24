@@ -2,36 +2,210 @@
 layout: default
 title: Home
 ---
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">older</a>
-  {% else %}
-    <span class="pagination-item older">older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">newer</span>
-  {% endif %}
-</div>
+<style type="text/css">
+.content { padding-top: 0; padding-bottom: 0; }
+/* max-width before this table gets nasty; this query will take effect for any screen smaller than 760px and also iPads, specifically. */
+@media
+  only screen 
+  and (max-width: 760px), (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+  /* force-table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { display: block; }
+  thead tr {/* hide table headers (but not display: none;, for accessibility) */
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  /* tr { margin: 0 0 1rem 0; } */
+  tr { margin: 0; }
+  tr:nth-child(odd) { background: #ccc; }
+  td {/* behave like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+  td:before {/* behave like a table header */
+    position: absolute;
+    /* top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+	/* label the data
+  could also use a data-* attribute and content for this: that way "bloats" the HTML, this way means keeping HTML and CSS in sync */
+  /* speculative-fiction tableCell mobile labels */
+  .fictionTableGroup:before,.fictionTableCell:before,
+  .codingTableGroup:before,.codingTableCell:before {
+    padding-top:4px;
+  }
+  .fictionTableGroup:nth-of-type(1):before { content:"BOOKS"; font-family:Londrina Shadow,sans-serif; }
+  .fictionTableGroup:nth-of-type(2):before { content:"\00270d\0000a0\0021d2"; }
+  .fictionTableGroup:nth-of-type(3):before { content:"\01f4d5\01f4d7\01f4d8"; }
+  .fictionTableCell:nth-of-type(1):before { content:"title:"; }
+  .fictionTableCell:nth-of-type(2):before { content:"genre:"; }
+  .fictionTableCell:nth-of-type(3):before { content:"medium:"; }
+  /* CODING tableCell mobile labels */
+  .codingTableGroup:nth-of-type(1):before { content:"CODING projects:"; font-family:Londrina Shadow,sans-serif; }
+  .codingTableGroup:nth-of-type(2):before { content:"\01f5a5\0000a0\0021d2"; }
+  .codingTableGroup:nth-of-type(3):before { content:"\01f5b2"; }
+  .codingTableCell:nth-of-type(1):before { content:"application:"; }
+  .codingTableCell:nth-of-type(2):before { content:"function:"; }
+  .codingTableCell:nth-of-type(3):before { content:"language(s):"; }
+  .codingTableCell:nth-of-type(4):before { content:"code:"; }
+}
+</style>
+<!-- BFGriffith.github.io HOMEPAGE -->
+<h1 
+  style="text-align:center; 
+  font-family:Londrina Shadow, sans-serif;"
+  >B.F. Griffith’s
+  <br>modestly marvelous
+  <br>mise-en-scène mélange
+  <br>of multifarious projects...
+</h1>
+<p style="text-align:center; font-size:0.5rem;"
+  >Welcome, readers, to the bespoke personal website and
+  <br>internet 
+  <span style="font-style:italic;">demesne</span>
+  <span> (&#128521;“land held as a lord’s feudal dominion”&#128081;)
+    <br>of&nbsp;
+    <a href="{{site.baseurl}}writing-portfolio/">author</a>,
+    <a 
+      href="{{site.baseurl}}professional-portfolio/"
+      >full-stack coder
+    </a>, educator, gamer,
+    <br>and insatiable bibliophile:&nbsp;
+    <a href="{{site.baseurl}}about/">Ben Forbes Griffith</a>!
+  </span>
+</p>
+<p 
+  style="font-size:0.75rem; font-style:italic;"
+  >This site is an open-source repository of short-form writings and portfolios on a wide variety of nerdy topics as well as a showcase of informative documentation and updates regarding ongoing progress or upcoming releases of major projects spanning the entirety of B.F. Griffith’s burgeoning multi-genre and multi-media œuvre.
+</p>
+<!-- homepage: main table of featured site contents -->
+<table role="table">
+  <thead role="rowgroup">
+    <tr role="row">
+      <th role="columnheader" colspan="2">
+        <h3 
+          style="font-family:Londrina Shadow, sans-serif; margin-top:10px;"
+        >Creative-Works:</h3>
+      </th>
+      <th role="columnheader" colspan="3">
+        <h3 
+          style="font-family:Londrina Shadow, sans-serif; margin-top:10px;"
+        >GENRE / medium</h3>
+      </th>
+    </tr>
+  </thead>
+  <tbody role="rowgroup">
+    <!-- CREATIVE-WRITING -->
+    <tr role="row">
+      <td role="cell" rowspan="4" class="fictionTableGroup">
+        <a href="{{site.baseurl}}writing-portfolio/">📚</a><!-- BOOKS -->
+      </td>
+      <td role="cell" class="fictionTableGroup"><!-- PAGE -->
+        <a href="{{site.baseurl}}writing-portfolio/">
+          <strong>B.F. Griffith’s authorial and worldbuilding portfolio</strong>
+        </a>
+      </td>
+      <td role="cell" colspan="3" class="fictionTableGroup">  
+        <span 
+          style="font-style:italic;font-weight:bold;"
+          >speculative-fiction
+        </span><!-- GROUP -->
+      </td>
+    </tr>
+    <tr role="row">
+      <td role="cell" class="fictionTableCell"><!-- TITLE -->
+        <a href="{{site.baseurl}}writing-portfolio/">Ɛxoτerran Légion Chronicles</a>
+      </td>
+      <td role="cell" colspan="2" class="fictionTableCell"><!-- GENRE -->
+        <span>science-fiction</span>
+      </td>
+      <td role="cell" class="fictionTableCell"><!-- TYPE/medium -->
+        <span>📖</span>
+      </td>
+    </tr>
+    <tr role="row">
+      <td role="cell" class="fictionTableCell"><!-- TITLE -->
+        <a href="{{site.baseurl}}writing-portfolio/">Έpic of Ἄpειron</a>
+      </td>
+      <td role="cell" colspan="2" class="fictionTableCell"><!-- GENRE -->
+        <span>epic fantasy</span>
+      </td>
+      <td role="cell" class="fictionTableCell"><!-- TYPE/medium -->
+        <span>📖</span>
+      </td>
+    </tr>
+    <tr role="row">
+      <td role="cell" class="fictionTableCell"><!-- TITLE -->
+        <a href="{{site.baseurl}}writing-portfolio/">Æromariner Corsair Chronicles</a>
+      </td>
+      <td role="cell" colspan="2" class="fictionTableCell"><!-- GENRE -->
+        <span>Steampunk (Dieselpunk)</span>
+      </td>
+      <td role="cell" class="fictionTableCell"><!-- TYPE/medium -->
+        <span>📖</span>
+      </td>
+    </tr>
+    <!-- CODING -->
+    <tr role="row">
+      <td role="cell" rowspan="4" class="codingTableGroup">
+        <a href="https://github.com/BFGriffith" target="_blank">&#128187;
+        </a><!-- web-applications -->
+      </td>
+      <td role="cell" class="codingTableGroup"><!-- portfolio -->
+        <a href="{{site.baseurl}}professional-portfolio/">
+          <strong>CODING portfolio</strong>
+        </a>
+      </td>
+      <td role="cell" colspan="3" class="codingTableGroup">
+        <span 
+          style="font-style:italic;font-weight:bold;"
+          >web-applications
+        </span><!-- GROUP -->
+      </td>
+    </tr>
+    <tr role="row">
+      <td role="cell" class="codingTableCell">
+        <!-- application: Poementor -->
+        <a href="https://github.com/BFGriffith/Poementor" target="_blank">Poementor
+        </a>
+      </td>
+      <td role="cell" class="codingTableCell">
+        <span>poetry</span><!-- function: description-->
+      </td>
+      <td role="cell" class="codingTableCell"><!-- tech-stack -->
+        <span>Angular</span><!-- language(s): -->
+      </td>
+      <td role="cell" class="codingTableCell"><!-- CODE -->
+        <a href="https://github.com/BFGriffith/Poementor" target="_blank">&#128221;</a>
+      </td>
+    </tr>
+    <tr role="row">
+      <td role="cell" class="codingTableCell">
+        <!-- application: Cyvasse -->
+        <a href="https://github.com/BFGriffith/Cyvasse" target="_blank">Cyvasse
+        </a>
+      </td>
+      <td role="cell" class="codingTableCell">
+        <span>boardgame</span><!-- function: description-->
+      </td>
+      <td role="cell" class="codingTableCell"><!-- tech-stack -->
+        <span>Angular</span><!-- language(s): -->
+      </td>
+      <td role="cell" class="codingTableCell">
+        <a 
+          href="https://github.com/BFGriffith/Cyvasse" 
+          target="_blank" 
+          style="padding-left:5px;"
+          >&#9819;
+        </a><!-- CODE -->
+      </td>
+    </tr>
+  </tbody>
+</table>

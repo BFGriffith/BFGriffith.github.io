@@ -1,27 +1,30 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <div style="display: flex; align-items: center;">
+      <div style="display:flex; align-items:center;">
         <img id="avatar" src="/IMAGES/Griffith_griffin.png" alt="avatar" height="auto" width="70%">
       </div>
-      <h1 style="clear: both;">
-        <a id="siteNameTitle" href="https://bfgriffith.github.io/about/">
-          {{ site.title }}
+      <div style="text-align:center;">
+        <p id="site_description">{{site.description}} of:</p>
+      </div>
+      <h1 style="text-align:center; clear:both;">
+        <a id="siteNameTitle" href="{{site.baseurl}}about/">
+          {{site.author.name}}
         </a>
       </h1>
-      <p style="clear: both;" class="lead" id="site_description">{{ site.description }}</p>
-      <p class="lead"><a id="T_handle" href="https://twitter.com/ForbesGriffith" target="_self">
-        <h2><span><img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = "> @ForbesGriffith</span></h2></a></p>
     </div>
-
+    <!-- NAVIGATION -->
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}"><span> HOME</span></a>
-
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}">
+        <span> HOME</span>
+      </a>
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}coding-blog/index.html">
+        <span> Coding-Blog</span>
+      </a>
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter.
       {% endcomment %}
-
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -30,10 +33,12 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="/Griffith_résumé.pdf" download> download résumé</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}"><span id="GitHub_repo"> (visit this site’s GitHub repository)</span></a>
+      <br>  
+      <a id="T_handle" class="lead" href="https://twitter.com/BFGriffith" target="_blank">
+        <h2 style="text-align:center !important; margin-bottom:0;">
+          <span><img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = "> @BFGriffith</span>
+        </h2>
+      </a>
     </nav>
-
   </div>
 </div>
