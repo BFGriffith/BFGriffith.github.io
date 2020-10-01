@@ -3,15 +3,15 @@ layout: page
 title: Open-Source PROJECTS
 permalink: /Professional-Portfolio/
 ---
-Welcome to the [web-development and software-engineering]({{site.baseurl}}resume/) [open-source and personal projects](https://github.com/BFGriffith?tab=repositories) portfolio of B.F. Griffith — a skilled “full-stack” practitioner with several years of coding experience designing and planning as well as functionally developing, deploying, and maintaining responsive, efficient, and user-friendly enterprise-scale applications using a variety of frameworks and libraries.
+Welcome to the [web-development and software-engineering]({{base}}/resume/) [open-source and personal projects](https://github.com/BFGriffith?tab=repositories) portfolio of B.F. Griffith — a skilled “full-stack” practitioner with several years of coding experience designing and planning as well as functionally developing, deploying, and maintaining responsive, efficient, and user-friendly enterprise-scale applications using a variety of frameworks and libraries.
 <h3>
-  <a href="{{site.baseurl}}about/">Ben Forbes Griffith</a><span> &#10137; </span>
+  <a href="{{base}}/about/">Ben Forbes Griffith</a><span> &#10137; </span>
   <a href="https://twitter.com/BFGriffith">
     <img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = @BFGriffith" />@BFGriffith
   </a>
 </h3>
 <p class="message" style="float:left;width:100%;">
-  <a href="{{site.baseurl}}resume">
+  <a href="{{base}}/resume">
     <img style="float:right;max-width:20%;margin-top:1rem;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="50px" width="auto" />
       <span style="float:left;max-width:80%;">
         <strong>web-developer and software-engineer</strong>&nbsp;with strong UX and design sensibilities and a talent for implementing dynamic layouts with complex structures
@@ -93,8 +93,8 @@ Welcome to the [web-development and software-engineering]({{site.baseurl}}resume
 
 Thanks for reading!
 <hr>
-The ongoing development of this [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com) [personal website]({{site.baseurl}}) and [portfolio]({{site.baseurl}}professional-portfolio) is currently designated as:
+The ongoing development of this [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com) [personal website]({{base}}/) and [portfolio]({{base}}/professional-portfolio) is currently designated as:
 <br>
 <span style="font-size:0.66rem;">version </span>
 <span>{{site.version}}</span>
-<p>Please feel free to <a href="{{site.github.repo}}" target="_blank">visit this site’s GitHub repository</a> if you want to learn more about how this particular flavor of static-content internet-sausage gets made — or are looking for inspiration regarding what you could easily develop with a similarly constructed site on your own free-hosting GitHub-domain.</p>
+<p>Please feel free to <a href="{{site.github.repo}}" target="_blank">visit this site’s GitHub repository</a> if you want to learn more about how this particular flavor of static-content internet-sausage gets made — or are looking for inspiration regarding what you could easily develop with a similarly constructed site on your own (free-hosting!) GitHub-domain.</p>

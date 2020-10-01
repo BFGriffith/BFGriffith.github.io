@@ -3,6 +3,7 @@ layout: page
 title: About the Author
 permalink: /about/
 ---
+
 <style type="text/css">
 /* accordion styles */
 .accordion {
@@ -80,7 +81,7 @@ input[name='panel']:checked ~ .accordion_content {
   max-height: 150em;
 }
 </style>
-<!-- B.F. Griffith’s biographic summary: -->
+<!-- B.F. Griffith’s biographical summary: -->
 <p>
   <span style="font-style:italic;">Menschliches, Allzumenschliches:&nbsp;</span>B.F. Griffith is just another middle-aged nerdy intellectual with too many hobbies and never enough time for them all; he’s a verbose, sardonic, discerning, skeptical, and sometimes cynical iconoclast — but also a convivial, amiable, voluptuary, and humanistic Epicurean. As a former history teacher and longtime student of philosophy with a keen interest in historiography, he spends much of his free time happily dwelling in the past (or in fantastical worlds of his own imagining), and is an insatiable bibliophile.&#128214;
 </p>
@@ -135,7 +136,7 @@ input[name='panel']:checked ~ .accordion_content {
         title="“The Road goes ever on and on, Down from the door where it began. Now far ahead the Road has gone, And I must follow, if I can...”">“An Unexpected Journey”
         <br>Into Web-Development:
       </h2>
-      <p class="accordion_body">Learn more about B.F. Griffith’s transition into a challenging and rewarding second career as a full-stack web-developer by reading his <a href="{{site.baseurl}}coding-blog/">blog</a> or checking out his <a href="{{site.baseurl}}professional-portfolio/">portfolio of open-source projects</a> and <a href="https://github.com/BFGriffith?tab=repositories" target="_blank">code-repositories</a>.&#128187;</p>
+      <p class="accordion_body">Learn more about B.F. Griffith’s transition into a challenging and rewarding second career as a full-stack web-developer by reading his <a href="{{base}}/coding-blog/">blog</a> or checking out his <a href="{{base}}/professional-portfolio/">portfolio of open-source projects</a> and <a href="https://github.com/BFGriffith?tab=repositories" target="_blank">code-repositories</a>.&#128187;</p>
     </div>
   </div>
   <!-- accordion-panel: teaching -->
@@ -147,8 +148,8 @@ input[name='panel']:checked ~ .accordion_content {
         title="Senecα the Younger to Lucilius Junior in “Epistulæ Morαles” (50-65ᴄᴇ)">“Docendo Discimus”</h2>
       <div class="accordion_body">
         <p>Mr. Griffith was proud to serve for almost a decade as a public schoolteacher in various capacities — but mostly he taught ninth through twelfth graders such classes as Advanced Placement world history, world history, American history, “global studies” / geography, American government, and economics (including honors level versions of nearly all of those classes).</p>
-        <p>As a member of Florida’s 2009 first-place High School Literacy Leadership Team of the year, Mr. Griffith fostered excellence in literacy education and contributed to the continuous improvement of students’ reading-comprehension and writing skills, encouraged enthusiasm for unassigned reading as well as abiding lifelong enjoyment of books, conducted and participated in faculty professional development sessions focused on teaching reading, and enhanced the overall literary rigor of the academic environment.</p>
-        <p>Mr. Griffith also volunteered for seven years as Chess club coach as well as faculty-facilitator of an after-school Fine-Arts club, since the school where he taught lacked any formal visual-arts program (so the club was a great opportunity to teach interested students basic drawing and painting in addition to more advanced techniques of perspective, proportion, composition, blending, and shading).</p>
+        <p>As a member of Florida’s 2009 first-place High School Literacy Leadership Team of the year, B.F. Griffith fostered excellence in literacy education and contributed to the continuous improvement of students’ reading-comprehension and writing skills, encouraged enthusiasm for unassigned reading as well as abiding lifelong enjoyment of books, conducted and participated in faculty professional development sessions focused on teaching reading, and enhanced the overall literary rigor of the academic environment.</p>
+        <p>Mr. Griffith also volunteered for seven years as Chess club coach as well as faculty-facilitator of an after-school Fine-Arts club, since the school where he taught lacked any formal visual-arts program (so the club was a great opportunity to teach interested students basic drawing and painting fundamentals in addition to more advanced techniques of perspective, proportion, composition, blending, and shading).</p>
       </div>
     </div>
   </div>
@@ -253,7 +254,7 @@ input[name='panel']:checked ~ .accordion_content {
 </p>
 <p>Thanks for reading!</p>
 <hr>
-The ongoing development of this *[GitHub Pages](https://pages.github.com/)* + [Jekyll](http://jekyllrb.com) [personal website]({{site.baseurl}}) and [portfolio]({{site.baseurl}}professional-portfolio) is currently designated as:
+The ongoing development of this *[GitHub Pages](https://pages.github.com/)* + [Jekyll](http://jekyllrb.com) [personal website]({{base}}/) and [portfolio]({{base}}/professional-portfolio) is currently designated as:
 <br>
 <span style="font-size:0.66rem;">version </span>
 <span>{{site.version}}</span>
