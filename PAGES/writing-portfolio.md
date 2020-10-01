@@ -3,6 +3,7 @@ layout: page
 title: Writing Portfolio
 permalink: /writing-portfolio/
 ---
+
 <p>Coming soon: find out more about B.F. Griffith’s creative writing and worldbuilding projects!</p>
 <ul style="float:left;">
   <li>Ɛxoτerran Légion Chronicles</li>

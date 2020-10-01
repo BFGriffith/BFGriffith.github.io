@@ -78,9 +78,9 @@ permalink: /resume/
 ### <a name="education"></a>EDUCATION:
 
 #### Coding-Bootcamps:
-* [_**UCF Coding Bootcamp**_]({{site.baseurl}}documents/UCF_coding-bootcamp_certificate_BFGriffith.jpeg) — Sanford / Lake Mary satellite campus (at Seminole State College)
+* [_**UCF Coding Bootcamp**_]({{base}}/documents/UCF_coding-bootcamp_certificate_BFGriffith.jpeg) — Sanford / Lake Mary satellite campus (at Seminole State College)
   * **full-stack web-development** — March 28 through September 28, 2016
-* [_**The Iron Yard Academy**_]({{site.baseurl}}documents/The-Iron-Yard_coding-bootcamp_certificate_BFGriffith.pdf) — Orlando, Florida
+* [_**The Iron Yard Academy**_]({{base}}/documents/The-Iron-Yard_coding-bootcamp_certificate_BFGriffith.pdf) — Orlando, Florida
   * **front-end web-development** — May 4 through July 24, 2015
 
 ##### Coding-Tutorials:
