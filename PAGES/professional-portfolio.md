@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Open-Source PROJECTS
-permalink: /Professional-Portfolio/
+permalink: /professional-portfolio/
 ---
 Welcome to the [web-development and software-engineering]({{base}}/resume/) [open-source and personal projects](https://github.com/BFGriffith?tab=repositories) portfolio of B.F. Griffith — a skilled “full-stack” practitioner with several years of coding experience designing and planning as well as functionally developing, deploying, and maintaining responsive, efficient, and user-friendly enterprise-scale applications using a variety of frameworks and libraries.
 <h3>

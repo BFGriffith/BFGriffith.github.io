@@ -1,3 +1,9 @@
+---
+layout: default
+title: Jekyll — Hyde and Poole themes license
+permalink: /jekyll-theme/
+---
+
 # Released under MIT License
 
 Copyright (c) 2013 Mark Otto.
