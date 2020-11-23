@@ -104,6 +104,7 @@ input[name='panel']:checked ~ .accordion_content {
       alt="Federal Network Icon: “Would You Like To Know More?”" 
       height="45px" 
       width="45px" 
+      title="“Come on, you apes! You wanna live forever?”" 
       style="float:right;">
   </h1>
 </div>
