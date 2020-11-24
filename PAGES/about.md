@@ -4,83 +4,6 @@ title: About the Author
 permalink: /about/
 ---
 
-<style type="text/css">
-/* accordion styles */
-.accordion {
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-} 
-/* radio inputs */
-.accordion input[name='panel'] {
-  display: none;
-}
-/* labels */
-.accordion label {
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  padding: 1em;
-  background-color: #E6E2DA;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  /* box-shadow: inset 0 2px 0 #fff; */
-  font-size: 1.5em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
-  color: #666;
-  cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
-}
-.accordion label:after {
-  content: '\002316';
-  position: absolute;
-  right: 1em;
-  width: 1.6em;
-  height: 1.6em;
-  color: #eee;
-  text-align: center;
-  border-radius: 50%;
-  background: #268bd2;
-  box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5), 0 1px 0 #fff;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
-}
-.accordion label:hover, .accordion label:hover:after {
-  color: #8f5536;
-  /* color: #2980b9; */
-}
-.accordion input:checked + label {
-  color: #2980b9;
-}
-.accordion input:checked + label:after {
-  content: '\002718';
-  /* adjsut line-height to vertically center icon */
-  /* line-height: .9em; */
-}
-/* panel content */
-.accordion .accordion_content {
-  overflow: hidden;
-  max-height: 0em;
-  position: relative;
-  padding: 0 1.5em;
-  box-shadow: inset 4px 0 0 0 #2980b9, inset 0 3px 6px rgba(0, 0, 0, 0.75);
-  background: #444;
-  background: linear-gradient(to bottom, #444444 0%, #222222 100%);
-  color: #eee;
-  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
-}
-.accordion .accordion_content:not(:last-of-type) {
-  box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.25), inset 4px 0 0 0 #2980b9, inset 0 3px 6px rgba(0, 0, 0, 0.75);
-}
-.accordion .accordion_content .accordion_header {
-  padding: 1em 0;
-}
-.accordion .accordion_content .accordion_body {
-  font-size: .825em;
-  line-height: 1.4em;
-  padding: 0 0 1.5em;
-}
-input[name='panel']:checked ~ .accordion_content {
-  /* set close to maximum accordion content height */
-  max-height: 150em;
-}
-</style>
 <!-- B.F. Griffith’s biographical summary: -->
 <p>
   <span style="font-style:italic;">Menschliches, Allzumenschliches:&nbsp;</span>B.F. Griffith is just another middle-aged nerdy intellectual with too many hobbies and never enough time for them all; he’s a verbose, sardonic, discerning, skeptical, and sometimes cynical iconoclast — but also a convivial, amiable, voluptuary, and humanistic Epicurean. As a former history teacher and longtime student of philosophy with a keen interest in historiography, he spends much of his free time happily dwelling in the past (or in fantastical worlds of his own imagining), and is an insatiable bibliophile.&#128214;
@@ -118,12 +41,18 @@ input[name='panel']:checked ~ .accordion_content {
       <h2 
         class="accordion_header" 
         title="“Tenet insαnαbile multos scribendi cαcœthes.” —Iuvenαlis Sάturæ (Sαtires of “Juvenαl” [Decimus Junius Juvenalis])">The Lifelong Ambitions of an Aspiring Author...</h2>
-      <p class="accordion_body">Coming soon: find out more about the ongoing progress of B.F. Griffith’s burgeoning <a href="{{site.baseurl}}writing-portfolio/">creative writing</a>, worldbuilding, and mythopœία projects!
+      <p class="accordion_body">Find out more about the ongoing progress of B.F. Griffith’s burgeoning <a href="{{site.baseurl}}writing-portfolio/">creative writing</a>, worldbuilding, and mythopœία projects!
       </p>
       <ul>
-        <li>Ɛxoτerran Légion Chronicles</li>
-        <li>Έpic of Ἄpειron</li>
-        <li>Æromariner Corsair Chronicles</li>
+        <li>
+          <a href="{{site.baseurl}}writing-portfolio/">Ɛxoτerran Légion Chronicles</a>
+        </li>
+        <li>
+          <a href="{{site.baseurl}}writing-portfolio/">Έpic of Ἄpειron</a>
+        </li>
+        <li>
+          <a href="{{site.baseurl}}writing-portfolio/">Æromariner Corsair Chronicles</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -152,6 +81,21 @@ input[name='panel']:checked ~ .accordion_content {
         <p>As a member of Florida’s 2009 first-place High School Literacy Leadership Team of the year, B.F. Griffith fostered excellence in literacy education and contributed to the continuous improvement of students’ reading-comprehension and writing skills, encouraged enthusiasm for unassigned reading as well as abiding lifelong enjoyment of books, conducted and participated in faculty professional development sessions focused on teaching reading, and enhanced the overall literary rigor of the academic environment.</p>
         <p>Mr. Griffith also volunteered for seven years as Chess club coach as well as faculty-facilitator of an after-school Fine-Arts club, since the school where he taught lacked any formal visual-arts program (so the club was a great opportunity to teach interested students basic drawing and painting fundamentals in addition to more advanced techniques of perspective, proportion, composition, blending, and shading).</p>
       </div>
+    </div>
+  </div>
+  <!-- accordion-panel: education -->
+  <div>
+    <input type="checkbox" name="panel" id="education-panel">
+    <label for="education-panel">LEARNING:</label>
+    <div class="accordion_content">
+      <h2 class="accordion_header" 
+        title="—Isaac Asimov">“Education isn’t something you can finish...”</h2>
+      <ul class="accordion_body">
+        <li>B.F. Griffith was fortunate enough to experience most of his primary and secondary schooling at <a href="https://www.mvcds.org/" target="_blank" style="font-weight:bold;">Maumee Valley Country Day school</a> in Northwest Ohio — an idyllic and nurturingly rigorous extremely creative independent liberal-arts preparatory environment with an extraordinarily worldly pluralistic outlook and inquisitive Deweyan pedagogy.</li>
+        <li>As an undergraduate, B.F. Griffith earned a Bachelor of Arts degree from <a href="https://www.hamilton.edu/" target="_blank" style="font-weight:bold;">Hamilton College</a> in “upstate” Clinton, New York (near Utica) on May 25, 2003 — majoring in <span style="font-style:italic;">philosophy</span> with a <span style="font-style:italic;">history</span> minor.</li>
+        <li>Subsequently, B.F. Griffith earned a Master of Arts in Teaching degree from <a href="https://www.bennington.edu/" target="_blank" style="font-weight:bold;">Bennington College</a> in the beautiful Green Mountains of Southwestern Vermont on June 4, 2005 — before serving as an educator (mostly teaching history) for nearly a decade.</li>
+        <li>Before commencing his second career as a web-developer (and in addition to many eBooks and autodidactic online tutorials), B.F. Griffith studied front-end web-development at <a href="https://www.bloc.io/learn-to-code/bc/the-iron-yard" target="_blank" style="font-weight:bold;">The Iron Yard Academy</a> coding-bootcamp in Orlando, Florida from May 4 through July 24 of 2015 — followed by also completing the <a href="https://bootcamp.ce.ucf.edu/coding/" target="_blank" style="font-weight:bold;">UCF Coding Bootcamp</a> studying “full-stack” web-development at the Sanford / Lake Mary satellite campus of Seminole State College from March 28 through September 28 of 2016.</li>
+      </ul>
     </div>
   </div>
   <!-- accordion-panel: favorite-quotes -->
