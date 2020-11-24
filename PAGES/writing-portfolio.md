@@ -4,7 +4,7 @@ title: Writing Portfolio
 permalink: /writing-portfolio/
 ---
 
-<p>Coming soon: find out more about B.F. Griffith’s creative writing and worldbuilding projects!</p>
+<p>Coming soon: find out more about B.F. Griffith’s most extensive and ambitious long-form creative-writing and worldbuilding projects as a burgeoning novelist!</p>
 <ul style="float:left;">
   <li>Ɛxoτerran Légion Chronicles</li>
   <li>Έpic of Ἄpειron</li>

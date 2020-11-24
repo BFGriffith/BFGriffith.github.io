@@ -8,7 +8,7 @@ permalink: /RPGs/5eDnD/house-rules/
   <h1 class="page-title">{{page.title}}</h1>
   <p 
     style="font-size:0.75rem; font-style:italic;"
-    >The following are house-rules that B.F. Griffith has used and often prefers (or is seriously contemplating implementing in at least some future campaign settings) in his 5th Edition Dungeons & Dragons tabletop-roleplaying games. Any mechanics not specified or amended in these house-rules can be assumed to default to 5eD&D officially published “rules as written” + errata and any relevant “Sage Advice” clarifications.
+    >The following are house-rules that B.F. Griffith has used and often prefers (or is seriously contemplating implementing in at least some future campaign settings) in his 5th Edition Dungeons & Dragons tabletop-roleplaying games.<br>Any mechanics not specified or amended in these house-rules can be assumed to default to 5eD&D officially published “rules as written” + errata and any relevant “Sage Advice” clarifications.
   </p>
   <h3>GENERAL GAMEPLAY and COMBAT MECHANICS:</h3>
   <div class="accordion" style="clear:both;">
@@ -20,7 +20,7 @@ permalink: /RPGs/5eDnD/house-rules/
         <h2 
           class="accordion_header" 
           title="quod nocet, sæpe doce">EXPANDED MIN-MAX OPTIONS:</h2>
-        <p class="accordion_body">B.F. Griffith personally prefers the point-buy system detailed on PHBpage13 (rather than rolling) for ability-score generation (before applying racial-modifiers), for reasons of both fairness and balance/consistency according to the central 5eD&D philosophy of “bounded-accuracy” — however, the point-buy options could be expanded to allow selections beyond ability-scores of 15 (such as these arrays which go beyond the “standard array” options presented in the PHB), by spending (out of 27 starting points for ability-score buying): 12 points for an ability-score of 16, 15 points for an ability-score of 17, 19 points for an ability-score of 18, 24 points for an ability-score of 19, or (though I don’t know why this would be a better option than aligning a favored score with racial-modifiers) all 27 points for an ability-score of 20 leaving the rest at 8 (with all point-buy of ability-scores using the standard 27 starting points being accomplished before applying racial-modifiers, as usual, and no scores lower than 8 allowed unless players really want to min-max with some semi-disabled characters in some aspects, in which case we could consider the following extension table below which could grant players more than 27 points if they take some ability scores even lower than 8); an additional advantage of point-buy is that, without any need for secure-digital rolling, it allows players to more easily discuss and plan their characters in advance of session-zero/one rather than having to entirely “roll-up” characters at the table (ideally, this should allow more time in-person/session-zero for planning party bonds, more detailed backstories, or planning party “balance” / areas of expertise to spotlight). It’s just simpler as well as more balanced.</p>
+        <p class="accordion_body">B.F. Griffith personally prefers the point-buy system detailed on PHBpage13 (rather than rolling) for ability-score generation (before applying racial-modifiers), for reasons of both fairness and balance/consistency according to the central 5eD&D philosophy of “bounded-accuracy” — however, the point-buy options could be expanded to allow selections beyond ability-scores of 15 (such as these arrays which go beyond the “standard array” options presented in the PHB), by spending (out of 27 starting points for ability-score buying): 12 points for an ability-score of 16, 15 points for an ability-score of 17, 19 points for an ability-score of 18, 24 points for an ability-score of 19, or (though I don’t know why this would be a better option than aligning a favored score with racial-modifiers) all 27 points for an ability-score of 20 leaving the rest at 8 (with all point-buy of ability-scores using the standard 27 starting points being accomplished before applying racial-modifiers, as usual, and no scores lower than 8 allowed unless players really want to min-max with some semi-disabled characters in some aspects, in which case we could consider the following extension table below which could grant players more than 27 points if they take some ability scores even lower than 8).<br>An additional advantage of point-buy is that, without any need for secure-digital rolling, it allows players to more easily discuss and plan their characters in advance of session-zero/one rather than having to entirely “roll-up” characters at the table (ideally, this should allow more time in-person/session-zero for planning party bonds, more detailed backstories, or planning party “balance” / areas of expertise to spotlight). It’s just simpler as well as more balanced.</p>
         <ul class="accordion_body">
           <li>alternatives for extreme min-max if one is willing to allow some essentially disabled-level heavily-penalized abilities (below 8) to add extra points beyond 27 to point-buy:</li>
         </ul>
@@ -91,15 +91,16 @@ permalink: /RPGs/5eDnD/house-rules/
           class="accordion_header" 
           title="omne ignotum pro mαgnifico">PUTTING SOME MYSTIQUE BACK IN IDENTIFICATIONS:</h2>
         <ul class="accordion_body">
-          <li><span style="color:#e40712;">Get rid of 5eDMG page 136 — “Alternatively, a character can focus on one magic item during a short rest, while being in physical contact with the item. At the end of the rest, the character learns the item’s properties, as well as how to use them. Potions are an exception; a little taste is enough to tell the taster what the potion does.”</span>
-            <ul style="color:#2980b9;">
-              <li>Instead: &laquo;Wearing or experimenting with an item can also offer hints about its properties. For example, if a character puts on a ring of jumping, you could say, “Your steps feel strangely springy.” Perhaps the character then jumps up and down to see what happens. You then say the character jumps unexpectedly high... Sometimes a magic item carries a clue to its properties. The command word to activate a ring might be etched in tiny letters inside it, or a feathered design might suggest that it’s a ring of feather falling.&raquo;</li>
-              <li>Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes. This check requires special training or lore and thus normally has disadvantage (or may be impossible in some cases) unless proficient. However, if proficient, time spent studying the item (given resources to do such research such as a library) or experimenting with it can give advantage on this check.</li>
+          <li><span style="color:#e40712;">Ignore 5eDMG page 136 — “Alternatively, a character can focus on one magic item during a short rest, while being in physical contact with the item. At the end of the rest, the character learns the item’s properties, as well as how to use them. Potions are an exception; a little taste is enough to tell the taster what the potion does.”</span>
+            <ul>
+              <li>Instead prefer rules along the lines of the following in the DMG:</li>
+              <li style="color:#2980b9;font-style:italic;">&laquo;Wearing or experimenting with an item can also offer hints about its properties. For example, if a character puts on a ring of jumping, you could say, “Your steps feel strangely springy.” Perhaps the character then jumps up and down to see what happens. You then say the character jumps unexpectedly high... Sometimes a magic item carries a clue to its properties. The command word to activate a ring might be etched in tiny letters inside it, or a feathered design might suggest that it’s a ring of feather falling.&raquo;</li>
+              <li>An Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes. This check requires special training or lore and thus normally has disadvantage (or may be impossible in some cases) unless proficient. However, if proficient, time spent studying the item (given resources to do such research such as a library) or experimenting with it can give advantage on this check.</li>
               <li>Similar rules should apply to identifying poisons or potions: Wisdom (Medicine) check, with proficiency if using and proficient with the appropriate kit (poisoner’s / herbalism).</li>
               <li>Also, per 5eDMG page 138 — Most methods of identifying items, including the identify spell, fail to reveal a curse, although lore might hint at it. A curse should be a surprise to the item’s user when the curse’s effects are revealed. Attunement to a cursed item can’t be ended voluntarily unless the curse is broken first, such as with the remove curse spell.</li>
             </ul>
           </li>
-          <li>Identify Spell revised to:
+          <li><span style="color:gold;">Identify Spell</span> revised to:
             <ul>
               <li style="font-style:italic;">1st-level divination (ritual)</li>
               <li>Casting Time: 1 minute, Range: Touch, Components: V, S, M (a pearl worth at least 100gp and an owl feather) Duration: Instantaneous</li>
@@ -136,4 +137,13 @@ permalink: /RPGs/5eDnD/house-rules/
   <h3>
     <ul><li><a href="/RPGs/homebrew/Beastmaster-Ranger/">Ranger &#10137; Beastmaster</a></li></ul>
   </h3>
+  <p>
+    <img 
+      id="bow-arrow_Artemesian" 
+      src="/IMAGES/bow-arrow_Artemesian.png" 
+      alt="decorative Artemesian bow and arrow" 
+      style="margin:0 auto;" 
+      height="auto" width="50">
+  </p>
+  <p><a href="/RPGs/">&#8672; return to main RPGs page</a></p>
 </div><!-- .page -->
