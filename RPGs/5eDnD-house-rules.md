@@ -36,6 +36,17 @@ permalink: /RPGs/5eDnD/house-rules/
         </table>
       </div>
     </div>
+    <!-- accordion-panel: critical-hits -->
+    <div>
+      <input type="checkbox" name="panel" id="critical-hits">
+      <label for="critical-hits">Critical-Hits:</label>
+      <div class="accordion_content">
+        <h2 
+          class="accordion_header" 
+          title="“Rollant his stroke on a dark stone repeats, And more of it breaks off than I can speak. The sword cries out, yet breaks not in the least, Back from the blow into the air it leaps.”">“With Durendal I’ll lay on thick and stout,<br>In blood the blade, to its golden hilt, I’ll drown.”</h2>
+        <p class="accordion_body">A Critical-Hit scores double the damage-dice, plus any usual modifiers, as per usual 5eRAW, but one of the additional damage-dice rolled is automatically treated as the maximum result of that die-type; however, this also applies to enemies and monsters when they score a critical-hit on PCs, of course. For example, if you critical-hit with a weapon or ranged-attack spell that normally does 2d6 points of damage, a critical-hit under this house-rule would do: 3d6+6+any-usual-mods points of damage (whereas a critical-hit with a 1d8 damage weapon would do 8+1d8+any-usual-mods damage). This way, critical-hits almost always satisfyingly result in greater than normal max-roll damage instead of rolling snake-eyes (though, of course, the danger is that enemies also gain this benefit to their critical-hits — so it makes critical-hits more eventful whether dishing out or receiving, but less extreme than maximizing or doubling the entirety of the damage would be).</p>
+      </div>
+    </div>
     <!-- accordion-panel: gritty-healing -->
     <div>
       <input type="checkbox" name="panel" id="gritty-healing">
