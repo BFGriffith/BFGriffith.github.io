@@ -4,11 +4,13 @@ title: Home
 ---
 <style type="text/css">
 .content { padding-top: 0; padding-bottom: 0; }
+table { border-top: 2px solid #515151 !important; }
 /* max-width before this table gets nasty; this query will take effect for any screen smaller than 760px and also iPads, specifically. */
 @media
   only screen 
   and (max-width: 760px), (min-device-width: 768px) 
   and (max-device-width: 1024px) {
+  table { border: 2px solid #515151 !important; }
   /* force-table to not be like tables anymore */
   table, thead, tbody, th, td, tr { display: block; }
   thead tr {/* hide table headers (but not display: none;, for accessibility) */
@@ -58,10 +60,10 @@ title: Home
   .codingTableGroup:nth-of-type(1):before { content:"CODING projects:"; font-family:Londrina Shadow,sans-serif; }
   .codingTableGroup:nth-of-type(2):before { content:"\01f5a5\0000a0\0021d2"; }
   .codingTableGroup:nth-of-type(3):before { content:"\01f5b2"; }
-  .codingTableCell:nth-of-type(1):before { content:"application:"; }
-  .codingTableCell:nth-of-type(2):before { content:"function:"; }
-  .codingTableCell:nth-of-type(3):before { content:"language(s):"; }
-  .codingTableCell:nth-of-type(4):before { content:"code:"; }
+  .codingTableCell:nth-of-type(1):before { content:"\01f3afapplication:"; }
+  .codingTableCell:nth-of-type(2):before { content:"\000192unction:"; }
+  .codingTableCell:nth-of-type(3):before { content:"\01f468\00200d\01f4bblanguage(s):"; }
+  .codingTableCell:nth-of-type(4):before { content:"\01f441\01f441code:"; }
 }
 </style>
 <!-- BFGriffith.github.io HOMEPAGE -->
@@ -104,7 +106,7 @@ title: Home
   </thead>
   <tbody role="rowgroup">
     <!-- CREATIVE-WRITING -->
-    <tr role="row">
+    <tr role="row" style="border-top: 1px solid #515151;">
       <td role="cell" rowspan="4" class="fictionTableGroup">
         <a href="{{site.baseurl}}writing-portfolio/">📚</a><!-- BOOKS -->
       </td>
@@ -154,7 +156,7 @@ title: Home
       </td>
     </tr>
     <!-- tabletop-RPGs -->
-    <tr role="row">
+    <tr role="row" style="border-top: 2px solid #515151;">
       <td role="cell" rowspan="3" class="RPGsTableGroup">
         <a href="{{site.baseurl}}RPGs/">&#127922;</a><!-- DICE -->
       </td>
@@ -193,7 +195,7 @@ title: Home
       </td>
     </tr>
     <!-- CODING -->
-    <tr role="row">
+    <tr role="row" style="border-top: 2px solid #515151;">
       <td role="cell" rowspan="4" class="codingTableGroup">
         <a href="https://github.com/BFGriffith" target="_blank">&#128187;
         </a><!-- web-applications -->

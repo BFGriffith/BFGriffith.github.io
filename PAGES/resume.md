@@ -9,7 +9,7 @@ permalink: /resume/
 ---
 
 <div>
-  <img style="float:right;max-width:50%;padding-bottom:1em;" src="/images/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="125px" width="auto" />
+  <img style="float:right;max-width:50%;padding-bottom:1em;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="125px" width="auto" />
   <ul class="float:left;max-width:50%;">
     <li>
       <a href="#technical—skills">technical skills</a>
