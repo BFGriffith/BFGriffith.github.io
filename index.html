@@ -47,6 +47,13 @@ title: Home
   .fictionTableCell:nth-of-type(1):before { content:"title:"; }
   .fictionTableCell:nth-of-type(2):before { content:"genre:"; }
   .fictionTableCell:nth-of-type(3):before { content:"medium:"; }
+  /* tabletop-RPGs tableCell mobile labels */
+  .RPGsTableGroup:nth-of-type(1):before { content:"RPGs"; font-family:Londrina Shadow,sans-serif; }
+  .RPGsTableGroup:nth-of-type(2):before { content:"\00270d\0000a0\0021d2"; }
+  .RPGsTableGroup:nth-of-type(3):before { content:"\01f4d4"; }
+  .RPGsTableCell:nth-of-type(1):before { content:"“rules as written”"; }
+  .RPGsTableCell:nth-of-type(2):before { content:"category:"; }
+  .RPGsTableCell:nth-of-type(3):before { content:"content:"; }
   /* CODING tableCell mobile labels */
   .codingTableGroup:nth-of-type(1):before { content:"CODING projects:"; font-family:Londrina Shadow,sans-serif; }
   .codingTableGroup:nth-of-type(2):before { content:"\01f5a5\0000a0\0021d2"; }
@@ -62,25 +69,22 @@ title: Home
   style="text-align:center; 
   font-family:Londrina Shadow, sans-serif;"
   >B.F. Griffith’s
-  <br>modestly marvelous
-  <br>mise-en-scène mélange
+  <br>muddled mélange
   <br>of multifarious projects...
 </h1>
-<p style="text-align:center; font-size:0.5rem;"
-  >Welcome, readers, to the bespoke personal website
-  <br>of&nbsp;
-    <a href="{{site.baseurl}}writing-portfolio/">author</a>,
+<p style="text-align:center; font-size:0.75rem;"
+  >Welcome to the bespoke personal website of
+  <br>
+    <a href="{{site.baseurl}}writing-portfolio/">speculative-fiction author</a>,&nbsp;
     <a 
       href="{{site.baseurl}}professional-portfolio/"
-      >full-stack coder
-    </a>, educator, gamer,
-    <br>and insatiable bibliophile:&nbsp;
+      >full-stack coder</a><span>, philosopher,<br>educator, gamer, and insatiable bibliophile:&nbsp;</span>
     <a href="{{site.baseurl}}about/">Ben Forbes Griffith</a>!
   </span>
 </p>
 <p 
   style="font-size:0.75rem; font-style:italic;"
-  >This site is an open-source repository of short-form writings and portfolios on a wide variety of nerdy topics as well as a showcase of informative documentation and updates regarding ongoing progress or upcoming releases of major projects spanning the entirety of B.F. Griffith’s burgeoning multi-genre and multi-media œuvre.
+  >This site is an open-source repository of portfolios and short-form writings on a wide variety of nerdy topics as well as a convenient showcase of informative documentation and updates regarding ongoing progress or upcoming releases of major projects spanning the entirety of B.F. Griffith’s burgeoning multi-genre and multi-media creative œuvre.
 </p>
 <!-- homepage: main table of featured site contents -->
 <table role="table">
@@ -147,6 +151,45 @@ title: Home
       </td>
       <td role="cell" class="fictionTableCell"><!-- TYPE/medium -->
         <span>📖</span>
+      </td>
+    </tr>
+    <!-- tabletop-RPGs -->
+    <tr role="row">
+      <td role="cell" rowspan="3" class="RPGsTableGroup">
+        <a href="{{site.baseurl}}RPGs/">&#127922;</a><!-- DICE -->
+      </td>
+      <td role="cell" class="RPGsTableGroup"><!-- PAGE -->
+        <a href="{{site.baseurl}}RPGs/">
+          <strong>tabletop RPGs:</strong>
+        </a>
+      </td>
+      <td role="cell" colspan="3" class="RPGsTableGroup">  
+        <span 
+          style="font-style:italic;font-weight:bold;"
+          >homebrew & house-rules
+        </span><!-- GROUP -->
+      </td>
+    </tr>
+    <tr role="row">
+      <td role="cell" class="RPGsTableCell"><!-- TITLE -->
+        <a href="{{site.baseurl}}RPGs/5eDnD/house-rules/">5eD&D house-rules</a>
+      </td>
+      <td role="cell" colspan="2" class="RPGsTableCell"><!-- GENRE -->
+        <span>homebrew</span>
+      </td>
+      <td role="cell" class="RPGsTableCell"><!-- TYPE/medium -->
+        <a href="{{site.baseurl}}RPGs/5eDnD/house-rules/">&#128211;</a>
+      </td>
+    </tr>
+    <tr role="row">
+      <td role="cell" class="RPGsTableCell"><!-- TITLE -->
+        <a href="{{site.baseurl}}RPGs/5eDnD/character-builds/">5eD&D character-builds</a>
+      </td>
+      <td role="cell" colspan="2" class="RPGsTableCell"><!-- GENRE -->
+        <span>theorycrafting</span>
+      </td>
+      <td role="cell" class="RPGsTableCell"><!-- TYPE/medium -->
+        <a href="{{site.baseurl}}RPGs/character-building-philosophy/">&#129501;&#127995;&#129501;&#127995;&#8205;&#9792;&#65039;</a>
       </td>
     </tr>
     <!-- CODING -->
