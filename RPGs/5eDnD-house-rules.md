@@ -120,6 +120,17 @@ permalink: /RPGs/5eDnD/house-rules/
         <p class="accordion_body">It requires no extensive justification, I hope, to state that there are both more as well as less “crunchy” rule-systems available in various tabletop-RPGs compared to D&D, and that “hit-points” have always been somewhat of an abstraction, with specific or crippling injuries being rare in D&D rules, characters generally fighting with maximal effectiveness right to the brink of unconsciousness and risking death, and thus “hit-points” often largely conceptualized as mounting-exhaustion from desperate parries or dodges wearing a character down a certain number of times before a fatal mistake finally leads to a potentially lethal hit landing. These house-rules would thus leave “Stamina-points” to fill that more traditional role (and remain more easily recovered between fights by rolling hit-dice [“Stamina-dice”]), whereas “hit-points” could finally serve a more realistically simulationist role to somewhat represent lingering injuries and physical impairments resulting from more desperate combats (as well as ensuring that magic which quickly heals wounds by restoring hit-points would not necessarily restore one’s élan, morale, or “endurance” through sustained combat — as represented by “Stamina-points” — or vice versa...). This system also arguably allows for more realistic “rest and recovery” as well as “natural healing” mechanics by separating these, while still allowing traditional magical means of more rapid healing.</p>
       </div>
     </div>
+    <!-- accordion-panel: help-action -->
+    <div>
+      <input type="checkbox" name="panel" id="help-action">
+      <label for="help-action">Help action:</label>
+      <div class="accordion_content">
+        <h2 
+          class="accordion_header" 
+          title="“teamwork makes the dream work”">Our Powers Combine:</h2>
+        <p class="accordion_body">In order to give someone “help” with a Skill-check by using this action, the “helper” must be proficient with the relevant skill the creature receiving help is using.</p>
+      </div>
+    </div>
     <!-- accordion-panel: Identify spell -->
     <div>
       <input type="checkbox" name="panel" id="identify">
@@ -146,6 +157,28 @@ permalink: /RPGs/5eDnD/house-rules/
             </ul>
           </li>
         </ul>
+      </div>
+    </div>
+    <!-- accordion-panel: intelligence -->
+    <div>
+      <input type="checkbox" name="panel" id="intelligence">
+      <label for="intelligence">Intelligence-modifier:</label>
+      <div class="accordion_content">
+        <h2 
+          class="accordion_header" 
+          title="“Elementary, my dear...”">Scientia Potestas Est:</h2>
+        <p class="accordion_body">If you have a positive Intelligence-modifier of at least +2, you can take ½ of your Intelligence-modifier (rounded-down) of extra Languages that you can speak, read, and write — or tool-proficiencies (i.e. up to two extra languages or tools with the maximum 20 Intelligence-score and a +5 Intelligence-modifier). This house-rule is an attempt to somewhat better balance Intelligence against the benefits of other primary abilities such as Dexterity or Wisdom.</p>
+      </div>
+    </div>
+    <!-- accordion-panel: potions -->
+    <div>
+      <input type="checkbox" name="panel" id="potions">
+      <label for="potions">Potions:</label>
+      <div class="accordion_content">
+        <h2 
+          class="accordion_header" 
+          title="変若水 “ochimizu”">VISCE BEATHA:</h2>
+        <p class="accordion_body">A character can drink a potion as a bonus-action, however, it still requires an action to feed a potion to another person — and, in either case, at least one free hand in addition to the one “interact with object” action typically available per turn is required to draw the potion forth from where it was accessibly carried and get it ready to drink or feed to someone (with a couple fingers of a second hand or one’s teeth assumed to be sufficient to unstopper a potion in most cases); however, drinking a potion as a bonus-action or feeding one to someone as an action, or any other similar object interaction that the DM deems may put a character momentarily “off-guard” during combat (loading a weapon with that property, interacting with any relatively complex mechanism beyond operating a mere single switch/lever, handle, or knob, etc.), may provoke a reaction “attack-of-opportunity” from any adjacent hostile creatures within mêlée-attack-range, at the DM’s discretion.</p>
       </div>
     </div>
   </div><!-- .accordion -->
