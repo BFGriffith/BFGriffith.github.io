@@ -149,7 +149,12 @@ permalink: /RPGs/5eDnD/house-rules/
       </div>
     </div>
   </div><!-- .accordion -->
-  <br>
+  <h3>
+    <ul>
+      <li><a href="/RPGs/homebrew/firearms/">5eD&D weapons + firearms homebrew options</a></li>
+      <li><a href="/RPGs/homebrew/vehicles/">5eD&D vehicle homebrew options</a></li>
+    </ul>
+  </h3>
   <p>
     <img 
       id="bow-arrow_Artemesian" 

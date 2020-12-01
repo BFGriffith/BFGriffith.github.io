@@ -27,7 +27,14 @@ permalink: /RPGs/homebrew/firearms/
     <li><strong>DISARM</strong> (DMGpage271): A creature can use a weapon-attack to knock a weapon or another item from a target’s grasp. The attacker makes an attack-roll contested by the target’s Strength(Athletics) check or Dexterity(Acrobatics) check. If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the item. The attacker has disadvantage on its attack-roll if the target is holding the item with two or more hands. The target has advantage on its ability-check if it’s larger than the attacking creature, or disadvantage if it’s smaller.</li>
     <li>P.S. — There’re other expanded combat options on 5eDMG pages 271 and 272 which the DM is willing to consider allowing if players want to try them (or may consider experimenting with utilizing them for NPC adversaries).</li>
   </ul>
-  <br>
+  <p>
+    <img 
+      id="bow-arrow_Artemesian" 
+      src="/IMAGES/bow-arrow_Artemesian.png" 
+      alt="decorative Artemesian bow and arrow" 
+      style="margin:0 auto;" 
+      height="auto" width="50">
+  </p>
   <h3 id="firearms-mechanics">additional firearms mechanics options:</h3>
   <ul>
     <li><strong>AKIMBO:</strong> If you’re proficient with firearms or ranged weapons and are wielding two light firearms or one-handed ranged-weapons, after you fire with one, you can use a bonus-action to attack with another light firearm you are also holding. However, you don’t add your ability modifier to the damage of the bonus-attack unless that modifier is negative.</li>
@@ -42,6 +49,14 @@ permalink: /RPGs/homebrew/firearms/
     <li><strong>BULKY:</strong> firearms with this property must be made stable and steadied in order to be fired effectively due to their weight and the damage they can pull-off with a single shot. A character cannot ever attack more than once per turn while wielding a “bulky” firearm.</li>
     <li><strong>CLOSE-QUARTERS:</strong> firearms with this property do not impose disadvantage when making an attack-roll while a hostile creature is within five feet (mêlée range)</li>
   </ul>
+  <p>
+    <img 
+      id="bow-arrow_Artemesian" 
+      src="/IMAGES/bow-arrow_Artemesian.png" 
+      alt="decorative Artemesian bow and arrow" 
+      style="margin:0 auto;" 
+      height="auto" width="50">
+  </p>
   <h3 id="firearms-feats">additional feat options:</h3>
   <ul>
     <li><strong>Superior-Shooter</strong> (requires 13 Dexterity) — an alternative version of the “Sharpshooter” feat flavored toward firearms (PHBpage170): You’ve mastered the careful aiming of powerful but relatively precise firearms... When you wield a firearm that does not have the light, scatter, burst-fire, or automatic properties and that you’re proficient with: if you use a bonus-action to steady your aim with this firearm, you can choose to make a called-shot attack-roll with a -5 penalty rather than disadvantage. If you succeed, the creature you hit suffers a -2 penalty to its save to attempt to resist the effect of a called-shot. If you chose to do this with a normal attack-roll instead of a called-shot, you get +10 extra damage if you hit and can reroll any 1s on a damage-roll for that attack. Your ranged-weapon attacks with these specific types of firearms also ignore half-cover and three-quarters cover. Long-range attacks are still made at disadvantage as usual.</li>
@@ -49,4 +64,13 @@ permalink: /RPGs/homebrew/firearms/
     <li><strong>Sidearm-Master</strong> (requires 13 Dexterity) — a dual-wielding gunslinger feat that still offers some ASI to Dexterity: Wielding sidearms with delicate precision, you’re an expert gunslinger and blazingly fast on the draw: increase your Dexterity score by one, to a maximum of 20. Gain +1 bonus to attack-rolls made with one-handed pistol sidearms that do not have any scatter or burst-fire or automatic properties. You can make opportunity-attacks with sidearms/pistols. You can draw or stow two one-handed pistol firearms that do not have any scatter or burst-fire or automatic properties or other one-handed mêlée or ranged weapons when you would normally only be able to draw or stow one using your object-interaction.</li>
     <li><strong>Akimbo-Master</strong> (requires 13 Dexterity) — a dual-wielding gunslinger feat that frees up your bonus-action: You can draw or stow two one-handed pistol firearms that do not have any scatter or burst-fire or automatic properties or other one-handed mêlée or ranged weapons when you would normally only be able to draw or stow one using your object-interaction — and can use two-weapon fighting with such weapons even when such pistols are not light. You also gain proficiency in such simple or martial pistols if you don’t already have it. You can make opportunity-attacks with sidearms/pistols. Once per round: in place of normal two-weapon-fighting mechanics, while wielding two such pistols, you can optionally fire both firearms if holding one in each hand as your attack-action at the same or separate targets. Make an attack-roll with a -5 penalty (as well as disadvantage if any target is long-range); if your attack hits, roll two damage-rolls and add +5 to each damage-roll; you cannot normally use a bonus-action to attack with an offhand gun if you use this sort of special attack-roll (unless you also have the Pistol-Whipper feat, in which case an offhand mêlée-attack might be possible as a bonus-action, or if you had a kensai monk feature that would allow such pistols to be “monk” weapons that could be combined with bonus-action unarmed-strikes). Action-Surge, Haste, etc. would allow an additional normal ranged-weapon attack in the same round, but never more than one use of this feature in one round.</li>
   </ul>
+  <p>
+    <img 
+      id="bow-arrow_Artemesian" 
+      src="/IMAGES/bow-arrow_Artemesian.png" 
+      alt="decorative Artemesian bow and arrow" 
+      style="margin:0 auto;" 
+      height="auto" width="50">
+  </p>
+  <p><a href="/RPGs/">&#8672; return to main RPGs page</a></p>
 </div>
