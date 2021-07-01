@@ -15,4 +15,7 @@ permalink: /RPGs/
   <li>
     <a href="/RPGs/5eDnD/character-builds/">5eD&D &#10137; “optimized” character-builds</a>
   </li>
+  <li>
+    <a href="/RPGs/5eDnD_character-build-statblock-template/">5eD&D &#10137; Character-Build Statblock EXAMPLE / Template</a>
+  </li>
 </ul>
