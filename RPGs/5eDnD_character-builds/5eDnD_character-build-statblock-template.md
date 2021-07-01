@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 5th Edition Dungeons & Dragons Character-Build Statblock Template
 permalink: /RPGs/5eDnD_character-build-statblock-template/
 ---
@@ -18,98 +19,96 @@ See the Apache License for the specific language governing permissions and
 limitations under the License.
 -->
 
-  <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
-  <link href="//fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet" type="text/css"/>
-  <style type="text/css">
-    body { margin: 0; }
-    stat-block {
-      /* margin for presentation purposes, to show off the drop shadow. */
-      margin-left: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-  </style>
-  <script type="text/javascript">
-    function createCustomElement(name, contentNode, elementClass = null) {
-      if(elementClass === null) {
-        customElements.define(name,
-          class extends HTMLElement {
-            constructor() {
-              super();
-              this.attachShadow({mode: 'open'})
-                .appendChild(contentNode.cloneNode(true));
-            }
+<style type="text/css">
+  body { margin: 0; }
+  stat-block {
+    /* margin for presentation purposes, to show off the drop shadow. */
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+<script type="text/javascript">
+  function createCustomElement(name, contentNode, elementClass = null) {
+    if(elementClass === null) {
+      customElements.define(name,
+        class extends HTMLElement {
+          constructor() {
+            super();
+            this.attachShadow({mode: 'open'})
+              .appendChild(contentNode.cloneNode(true));
           }
-        )
-      } else {
-        customElements.define(name, elementClass(contentNode));
-      }
-    };
-  </script>
-  <template id="stat-block">
-  <style type="text/css">
-    .bar {
-      height: 5px;
-      background: #E69A28;
-      border: 1px solid #000;
-      position: relative;
-      z-index: 1;
+        }
+      )
+    } else {
+      customElements.define(name, elementClass(contentNode));
     }
-    :host {
-      display: inline-block;
-    }
-    #content-wrap {
-      font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-      font-size: 13.5px;
-      background: #FDF1DC;
-      padding: 0.6em;
-      padding-bottom: 0.5em;
-      border: 1px #DDD solid;
-      box-shadow: 0 0 1.5em #867453;
-      position: relative;
-      z-index: 0;
-      margin-left: 2px;
-      margin-right: 2px;
-      width: 400px;
-      -webkit-columns: 400px;
-        -moz-columns: 400px;
-              columns: 400px;
-      -webkit-column-gap: 40px;
-        -moz-column-gap: 40px;
-              column-gap: 40px;
-      height: var(--data-content-height);
-      -webkit-column-fill: auto;
-        -moz-column-fill: auto;
-              column-fill: auto;
-    }
-    :host([data-two-column]) #content-wrap {
-      width: 840px;
-    }
-    ::slotted(h3) {
-      border-bottom: 1px solid #7A200D;
-      color: #7A200D;
-      font-size: 21px;
-      font-variant: small-caps;
-      font-weight: normal;
-      letter-spacing: 1px;
-      margin: 0;
-      margin-bottom: 0.3em;
-      break-inside: avoid-column;
-      break-after: avoid-column;
-    }
-    ::slotted(p) {
-      margin-top: 0.3em;
-      margin-bottom: 0.9em;
-      line-height: 1.5;
-    }
-    ::slotted(*:last-child) {
-      margin-bottom: 0;
-    }
-    @media  only screen and (max-device-width: 896px)
-            and (-webkit-min-device-pixel-ratio: 3) {
-      #content-wrap, #content-wrap:host { vw: 100 };
-    }
-  </style>
+  };
+</script>
+<template id="stat-block">
+<style type="text/css">
+  .bar {
+    height: 5px;
+    background: #E69A28;
+    border: 1px solid #000;
+    position: relative;
+    z-index: 1;
+  }
+  :host {
+    display: inline-block;
+  }
+  #content-wrap {
+    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    background: #FDF1DC;
+    padding: 0.6em;
+    padding-bottom: 0.5em;
+    border: 1px #DDD solid;
+    box-shadow: 0 0 1.5em #867453;
+    position: relative;
+    z-index: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 400px;
+    -webkit-columns: 400px;
+      -moz-columns: 400px;
+            columns: 400px;
+    -webkit-column-gap: 40px;
+      -moz-column-gap: 40px;
+            column-gap: 40px;
+    height: var(--data-content-height);
+    -webkit-column-fill: auto;
+      -moz-column-fill: auto;
+            column-fill: auto;
+  }
+  :host([data-two-column]) #content-wrap {
+    width: 840px;
+  }
+  ::slotted(h3) {
+    border-bottom: 1px solid #7A200D;
+    color: #7A200D;
+    font-size: 21px;
+    font-variant: small-caps;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 0.3em;
+    break-inside: avoid-column;
+    break-after: avoid-column;
+  }
+  ::slotted(p) {
+    margin-top: 0.3em;
+    margin-bottom: 0.9em;
+    line-height: 1.5;
+  }
+  ::slotted(*:last-child) {
+    margin-bottom: 0;
+  }
+  @media  only screen and (max-device-width: 896px)
+          and (-webkit-min-device-pixel-ratio: 3) {
+    #content-wrap, #content-wrap:host { vw: 100 };
+  }
+</style>
 <!-- STAT-BLOCK CONTENT -->
 <div class="bar"></div>
 <div id="content-wrap">
@@ -149,14 +148,14 @@ limitations under the License.
   createCustomElement('creature-heading', templateElement.content);
 }</script>
 <template id="tapered-rule">
-  <style type="text/css">
-    svg {
-      fill: #922610;
-      stroke: #922610;
-      margin-top: 0.6em;
-      margin-bottom: 0.35em;
-    }
-  </style>
+<style type="text/css">
+  svg {
+    fill: #922610;
+    stroke: #922610;
+    margin-top: 0.6em;
+    margin-bottom: 0.35em;
+  }
+</style>
   <svg height="5" width="400">
     <polyline points="0,0 400,2.5 0,5"></polyline>
   </svg>
@@ -167,11 +166,11 @@ limitations under the License.
   createCustomElement('tapered-rule', templateElement.content);
 }</script>
 <template id="top-stats">
-  <style type="text/css">
+<style type="text/css">
   ::slotted(*) {
     color: #7A200D;
   }
-  </style>
+</style>
   <tapered-rule></tapered-rule><slot></slot><tapered-rule></tapered-rule>
 </template>
 <script type="text/javascript">{
@@ -879,12 +878,12 @@ function elementClass(contentNode) {
       </a>
     </p>
   </div>
-  <style type="text/css">
-    @media  only screen and (max-device-width: 896px)
-            and (-webkit-min-device-pixel-ratio: 3) {
-      #sidebar_text { position: relative; float: none; margin: 20px; }
-    }
-  </style>
+<style type="text/css">
+  @media  only screen and (max-device-width: 896px)
+          and (-webkit-min-device-pixel-ratio: 3) {
+    #sidebar_text { position: relative; float: none; margin: 20px; }
+  }
+</style>
 <script type="text/javascript">
   // checkboxes:
   function checkQuantityInput(input, inputID) {
