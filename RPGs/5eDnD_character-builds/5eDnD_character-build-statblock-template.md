@@ -20,12 +20,11 @@ limitations under the License.
 -->
 
 <style type="text/css">
-  body { margin: 0; }
+  .content, .container, .sidebar { padding: 0; }
+  .content { margin-left: 20rem; }
   stat-block {
-    /* margin for presentation purposes, to show off the drop shadow. */
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 </style>
 <script type="text/javascript">
@@ -58,7 +57,7 @@ limitations under the License.
     display: inline-block;
   }
   #content-wrap {
-    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif !important;
     font-size: 13.5px;
     background: #FDF1DC;
     padding: 0.6em;
@@ -87,7 +86,7 @@ limitations under the License.
   ::slotted(h3) {
     border-bottom: 1px solid #7A200D;
     color: #7A200D;
-    font-size: 21px;
+    font-size: 21px !important;
     font-variant: small-caps;
     font-weight: normal;
     letter-spacing: 1px;
@@ -126,18 +125,18 @@ limitations under the License.
       font-family: 'Libre Baskerville', 'Lora', 'Calisto MT',
                   'Bookman Old Style', Bookman, 'Goudy Old Style',
                   Garamond, 'Hoefler Text', 'Bitstream Charter',
-                  Georgia, serif;
+                  Georgia, serif !important;
       color: #7A200D;
       font-weight: 700;
       margin: 0px;
-      font-size: 23px;
+      font-size: 23px !important;
       letter-spacing: 1px;
       font-variant: small-caps;
     }
     ::slotted(h2) {
       font-weight: normal;
       font-style: italic;
-      font-size: 12px;
+      font-size: 12px !important;
       margin: 0;
     }
   </style>
@@ -849,24 +848,24 @@ function elementClass(contentNode) {
   <style type="text/css">
     #sidebar_text {
       position:absolute;
-      top:20px;
+      top:2rem;
       float:right;
       margin:0 20px 20px 460px;
     }
     #sidebar_text > p { font-size:14pt; text-align:justify; }
-    @media  only screen and (max-device-width: 896px)
+    @media  only screen and (max-device-width: 48em)
             and (-webkit-min-device-pixel-ratio: 3) {
+      .content { margin: 0; max-width: 44em !important; }
       #sidebar_text {
         position: relative; float: none;
         font-size: 12pt;
-        max-width: 420px;
         margin: 0 20px 20px 20px;
       }
       #sidebar_text > p { font-size: 12pt; text-align: left; }
     }
   </style>
   <div id="sidebar_text">
-    <strong>Shared Freely: With Love For Any And All&nbsp;&ldquo;Analog Players In A Digital World&rdquo;</strong>&#128521;
+    <strong>Shared Freely: With Love For Any And All Of My Fellow&nbsp;&ldquo;Analog Players In A Digital World&rdquo;</strong>&#128521;
     <br><span style="color:gray;font-size:10pt;">(or simply those who can&rsquo;t afford, or are otherwise for whatever reason disinclined, to continuously keep up with buying content in character management tools like D&D Beyond)&#128176;</span>
     <p>Due to visual design formatting similar to a monster statblock, these&nbsp;&ldquo;bespoke character builds&rdquo; may of course optionally be conveniently used as &eacute;lite&nbsp;&ldquo;Fourth-Tier&rdquo; NPCs or adversaries by any Dungeon Masters who are so inclined &mdash; with as much simplification (or further customization) as desired compared to rigorously following a fully detailed&nbsp;&ldquo;by the book&rdquo; player-character progression of advancement (which these builds do scrupulously conform to, but which traditionally isn&rsquo;t deemed necessary for most monsters or NPCs).&#129335;</p>
     <p>Their primary purpose, however, is to compactly share the essence of various tightly thematic (but hopefully interestingly enough&nbsp;&ldquo;optimized&rdquo; to be worth sharing)&nbsp;&ldquo;character-builds&rdquo; in a familiar and easily readable 5eD&D&nbsp;&ldquo;Monster-Manual statblock&rdquo; style layout and typesetting. Beyond that, however, these intentionally thorough&nbsp;&ldquo;opinionated build guides&rdquo; are meant to function like&nbsp;&ldquo;grab and go&rdquo; holistic character concepts: enjoyable and ready to play starting at any level &mdash; but with a cohesive plan in place for potential progression through each level of play, and even carefully selected thematically appropriate mundane kit gear as well as suggested magic items to add to a&nbsp;&ldquo;wishlist&rdquo; or deliberately quest for if your DM is amenable (or wants to equip an NPC version of the character with some or all of them). Most&nbsp;&ldquo;mundane&rdquo; (non-magical) equipment suggested in each character build guide template should be easily affordable through the gold-buy options presented on page 143 of the Player&rsquo;s Handbook as a starting character, or through treasure gained shortly thereafter during very few levels of play (depending on the character&rsquo;s starting class and how well the d4 rolls for starting wealth go, of course...); for convenience, thematically appropriate mundane items for these character builds include handy checkboxes in case they cannot all be acquired immediately at the start of play, or in case some are temporarily lost or destroyed during play and you want to track that pending reaquisition or replacement (during which time they can remain unchecked whenever not currently possessed or worn/carried).&#127919;</p>
@@ -878,12 +877,12 @@ function elementClass(contentNode) {
       </a>
     </p>
   </div>
-<style type="text/css">
+<!-- <style type="text/css">
   @media  only screen and (max-device-width: 896px)
           and (-webkit-min-device-pixel-ratio: 3) {
     #sidebar_text { position: relative; float: none; margin: 20px; }
   }
-</style>
+</style> -->
 <script type="text/javascript">
   // checkboxes:
   function checkQuantityInput(input, inputID) {

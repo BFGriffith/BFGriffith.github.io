@@ -4,6 +4,10 @@ title: Résumé
 permalink: /resume/
 ---
 
+<style type="text/css">.page-title { display: none; }</style>
+
+<h1>+1 Résumé of Remunerating Recompense</h1><small>(Legendary Cursed Item, requires Attunement)</small>
+
 #### B.F. Griffith is an increasingly experienced and perpetually busy full-stack enterprise-applications web-developer and software-engineer with limited availability for open-source collaborations or freelance side-projects.
 
 ---
@@ -97,7 +101,7 @@ permalink: /resume/
 
 ---
 
-### <a name="professional-experience"></a>PROFESSIONAL-EXPERIENCES:
+### <a name="professional-experience"></a>PROFESSIONAL-EXPERIENCES and Curriculum Vitæ:
 
 #### full-stack Web-Developer:
 
