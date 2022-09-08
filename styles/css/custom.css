@@ -132,6 +132,15 @@ a.siteDescriptionLink:focus {
   text-decoration: none;
   font-weight: bold;
 }
+#Author_description {
+  text-align: center !important;
+  clear: both;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: white;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px #8f5536 !important;
+} #Author_description a { text-decoration: none; font-weight: bold; }
 
 /* sidebar NAVIGATION */
 .sidebar-nav {

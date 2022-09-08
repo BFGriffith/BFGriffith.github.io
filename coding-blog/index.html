@@ -3,7 +3,7 @@ layout: coding-blog
 title: Code Crafting Chronicles
 paginate_path: "/coding-blog/page:num/"
 ---
-<p style="font-size:0.5rem;">Welcome to the web-development and software-engineering blog of B.F. Griffith.</p>
+<p style="font-size:0.5rem;">Welcome to the web-development＋software-engineering blog of B.F. Griffith.</p>
 <hr>
 <div class="posts">
   {% for post in paginator.posts %}
@@ -18,7 +18,7 @@ paginate_path: "/coding-blog/page:num/"
   </div>
   {% endfor %}
 </div>
-<!-- PAGINATION https://jekyllrb.com/docs/pagination/ -->
+<!-- Pagination LINKS https://jekyllrb.com/docs/pagination/ -->
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{paginator.next_page_path}}">&larrfs;older</a>
@@ -26,11 +26,7 @@ paginate_path: "/coding-blog/page:num/"
     <span class="pagination-item older">older</span>
   {% endif %}
   {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{site.baseurl}}coding-blog/">newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{site.baseurl}}coding-blog/page{{paginator.previous_page}}">newer&rarrfs;</a>
-    {% endif %}
+    <a class="pagination-item newer" href="{{site.baseurl}}coding-blog/page{{paginator.previous_page}}">newer&rarrfs;</a>
   {% else %}
     <span class="pagination-item newer">newer</span>
   {% endif %}

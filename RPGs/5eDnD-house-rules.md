@@ -1,26 +1,26 @@
 ---
 layout: default
-title: house-rules &#10137; 5eD&D
+title: House Rules ⌥ &#10137; 5eD&D
 permalink: /RPGs/5eDnD/house-rules/
 ---
 
 <div class="page">
-  <h1 class="page-title">{{page.title}}</h1>
+  <h1 class="page-title">{{page.title}} 🐉</h1>
   <p 
-    style="font-size:0.75rem; font-style:italic;"
-    >The following are house-rules that B.F. Griffith has used and often prefers (or else is seriously contemplating implementing in at least some future campaign settings) in his 5th Edition Dungeons & Dragons tabletop-roleplaying games.<br>Any mechanics not specified or amended in these house-rules can be assumed to default to 5eD&D officially published “rules as written” + errata and any relevant “Sage Advice” or Jeremy Crawford Tweeted “rules as intended” clarifications.
+    style="font-size:0.75rem;"
+    >The following are various “house rule” options that B.F. Griffith has either already successfully implemented in past games and knows from experience that many players will tend to have fun with (or at least find unobjectionable), or which he is seriously contemplating playtesting in at least some future campaign settings with appropriately complementary thematic subgenres／tones: assuming, of course, that enough players who share his tastes are also willing to experiment with them!<br><br>Any mechanics not specified or amended in these house rules can obviously be assumed to default to 5eD&D officially published “rules as written”＋errata and any relevant “Sage Advice” or Jeremy Crawford Tweeted “rules as intended” clarifications…<br>In summary, most of these optional house rules are not intended to catastrophically unbalance or stray too drastically far away from RAW＋RAI default 5eD&D mechanics that most experienced players will most likely already be familiar with.<br><br>Ultimately, the more complicated prospective “house rules” tacked onto any already far from “rules light” ttRPG such as D&D are, the less likely those rules arguably are to be much fun or convenient to practically implement. Consequently, these are all meant to be relatively simple and straightforward prospective adjustments which don’t stray far from the core mechanics they are based on… Please feel free to use these rules in your own games in any way you wish (so long as you don’t plagiarize any of their unique wording or ideas in any profit seeking publication without permission); additionally, B.F. Griffith welcomes any constructive suggestions for how these rules might be improved or feedback regarding any problematic interactions they might have with existing rules that might warrant reconsideration!
   </p>
-  <h3>GENERAL GAMEPLAY and COMBAT MECHANICS:</h3>
+  <h3>GENERAL GAMEPLAY and COMBAT MECHANICS ⚔️</h3>
   <div class="accordion" style="clear:both;">
-    <!-- accordion-panel: Ability-Scores -->
+    <!-- accordion-panel: Ability Scores -->
     <div>
-      <input type="checkbox" name="panel" id="ability-scores">
-      <label for="ability-scores">Ability-Scores:</label>
+      <input type="checkbox" name="panel" id="Ability Scores">
+      <label for="Ability Scores">Ability Scores 💪🏼🤾🏻🩸🧠🧘🏻‍♂️❤️</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="quod nocet, sæpe doce">EXPANDED MIN-MAX OPTIONS:</h2>
-        <p class="accordion_body">B.F. Griffith personally prefers the “point-buy” system detailed on Player’s Handbook page 13 (rather than rolling) for Ability-Score generation (before applying traditional racial-modifiers or customizing your Ability-Score increases or creating a “Custom Lineage” per Tasha’s Cauldron of Everything pages 7→8), mostly for reasons of both fairness and balance/consistency according to the central 5eD&D philosophy of “bounded-accuracy” — however, the usual point-buy options could easily be expanded to allow selections beyond ability-scores of 15 (such as the following arrays which go beyond the “standard array” options and point-buy system presented in the PHB), by spending (out of 27 starting points for ability-score buying):</p>
+          title="quod nocet, sæpe doce">EXPANDED MIN-MAX OPTIONS 📊</h2>
+        <p class="accordion_body">B.F. Griffith personally prefers the “point-buy” system detailed on the 2014 Player’s Handbook page 13 (rather than rolling) for Ability-Score generation <small>(before applying traditional racial-modifiers or otherwise customizing your Ability-Score increases or creating a “Custom Lineage” per Tasha’s Cauldron of Everything pages 7→8)</small>, mostly for reasons of both fairness and balance／consistency according to the central 5eD&D philosophy of “bounded-accuracy” as well as empowering players who enjoy optimization more predictable control over their character build…<br><br>However, the usual point-buy options could easily be expanded to allow selections beyond Ability Scores of 15 (such as the following arrays which go beyond the “standard array” options and point-buy system presented in the PHB), by spending (out of 27 starting points for ability-score buying):</p>
         <ul class="accordion_body">
           <li>12 points for an ability-score of 16</li>
           <li>15 points for an ability-score of 17</li>
@@ -28,9 +28,9 @@ permalink: /RPGs/5eDnD/house-rules/
           <li>24 points for an ability-score of 19</li>
           <li>or (though I don’t know why this would ever be a better option than aligning a favored score with racial-modifiers) all 27 points for an ability-score of 20 (leaving the rest at 8)</li>
         </ul>
-        <p class="accordion_body">This house-rule is designed to be fully consistent with point-buy of ability-scores using the standard 27 starting points being accomplished before applying racial-modifiers, as usual, and no scores lower than 8 allowed unless players really want to min-max with some semi-disabled characters in some aspects, in which case a DM might consider the following extension table below which could grant players more than 27 starting points if they choose to take some ability-scores even lower than 8.<br>An additional advantage of point-buy is that, without any need for secure digital rolling, it allows players to more easily discuss and plan their characters in advance of session-zero/one rather than having to entirely “roll-up” characters “on the spot” at the table (ideally, this should allow more time in-person/session-zero for planning party bonds, more detailed backstories, tweaking party “balance” or particular areas of PC expertise to spotlight, “hard” or “soft” limits regarding content featured in detail or included to a more limited degree in the campaign, preferred house-rules, thematic subgenre specifics or content-focus expectations, preferred “pillars of play” to emphasize most, etc.). It’s just simpler as well as much more balanced, and anyone who doesn’t want to bother with it can easily take the standard-array.</p>
+        <p class="accordion_body">This house-rule is designed to be fully consistent with point-buy of Ability Scores using the standard 27 starting points being accomplished before applying racial-modifiers, as usual, and assuming no scores lower than 8 allowed unless players really want to min-max with some semi-disabled characters in some aspects, in which case a DM amenable to this might consider the following extension table below, which could grant players more than 27 starting points IF they choose to take some Ability Scores even lower than 8 as a trade-off.<br>An additional advantage of point-buy is that, without any need for secure digital rolling, it allows players to more easily discuss and plan their characters in advance of session-zero／one rather than having to entirely “roll-up” characters “on the spot” at the table (ideally, this should allow more valuable uses of time in-person／session-zero for planning party bonds, more detailed backstories, tweaking party “balance” or particular areas of PC expertise to spotlight, discussing“hard” or “soft” limits regarding content featured in detail or only included to a more limited or “veiled” (i.e. “off camera” rather than described or dwelled on in detail) degree throughout the campaign, preferred house-rules, thematic subgenre specifics or content-focus expectations, preferred “pillars of play” to emphasize most, tone or setting milieu, etc.). It’s just simpler as well as much more balanced, and anyone who doesn’t want to bother with it can easily take the standard-array.</p>
         <ul class="accordion_body">
-          <li>Anyway, here are some even more extreme alternatives for “min-max” ability-scores if the DM is willing to allow some essentially “disabled” and heavily-penalized abilities (below 8) as a tradeoff to add some extra points beyond 27 to point-buy:</li>
+          <li>Anyway, here are some even more extreme alternatives for “min-max” Ability Scores if the DM is willing to allow some essentially “disabled” and heavily-penalized abilities (below 8) as a tradeoff to add some extra points beyond 27 to point-buy:</li>
         </ul>
         <table style="width:100%">
           <tr style="color:#313131;">
@@ -47,18 +47,18 @@ permalink: /RPGs/5eDnD/house-rules/
     <!-- accordion-panel: critical-hits -->
     <div>
       <input type="checkbox" name="panel" id="critical-hits">
-      <label for="critical-hits">Critical-Hits:</label>
+      <label for="critical-hits">Critical-Hits 🎯</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="“Rollant his stroke on a dark stone repeats, And more of it breaks off than I can speak. The sword cries out, yet breaks not in the least, Back from the blow into the air it leaps.”">“With Durendal I’ll lay on thick and stout,<br>In blood the blade, to its golden hilt, I’ll drown.”</h2>
-        <p class="accordion_body">A Critical-Hit scores double the damage-dice, plus any usual modifiers applied once, as per usual 5eRAW, but one of the additional damage-dice rolled is automatically treated as the maximum result of that die-type; however, this also applies to enemies and monsters when they score a critical-hit on PCs, of course! For example, if you critical-hit with a weapon or ranged-attack spell that normally does 2d6 points of damage, a critical-hit under this house-rule would do: 3d6+6+any-usual-mods points of damage (whereas a critical-hit with a 1d8 damage weapon would do 8+1d8+any-usual-mods damage). This way, critical-hits almost always satisfyingly result in greater than normal max-roll damage instead of rolling snake-eyes (though, of course, the danger is that enemies also gain this benefit to their critical-hits — so it makes critical-hits guaranteed to be more eventful, whether dishing out or receiving, but still less extreme and less “swingy” than either maximizing or doubling the entirety of the damage would be).</p>
+          title="“Rollant his stroke on a dark stone repeats, And more of it breaks off than I can speak. The sword cries out, yet breaks not in the least, Back from the blow into the air it leaps.”">“With Durendal I’ll lay on thick and stout,<br>In blood the blade, to its golden hilt, I’ll drown.”🩸🗡</h2>
+        <p class="accordion_body">A Critical-Hit scores double the damage-dice, plus any usual modifiers applied once, as per usual 5eRAW, but one of the additional damage-dice rolled is automatically treated as the maximum result of that die-type; however, this also applies to enemies and monsters when they score a critical-hit on PCs, of course! For example, if you critical-hit with a weapon or ranged-attack spell that normally does 2d6 points of damage, a critical-hit under this house-rule would do: 3d6＋6＋any-usual-mods points of damage (whereas a critical-hit with a 1d8 damage weapon would do 8＋1d8＋any-usual-mods damage).<br><br>This way, critical-hits almost always satisfyingly result in greater than normal max-roll damage instead of rolling snake-eyes🎲🎲 (though, of course, the danger is that enemies also gain this benefit to their critical-hits — so it makes critical-hits guaranteed to be more eventful, whether dishing out or receiving, but still less extreme and less “swingy” than either maximizing or doubling the entirety of the damage would be). ⚖️<br><br>Alternatively, while it is even less “swingy” and even more reliably deadly, many tables seeking higher than average critical-hits may prefer the simplicity of simply rolling as with a normal hit but then adding the maximum dice result of a normal hit along with any usual modifiers. For example, if you critical-hit with a weapon or ranged-attack spell that normally does 2d6 points of damage, a critical-hit under this simplified version of the house-rule would do: 12＋2d6＋any-usual-mods points of damage. 🩸</p>
       </div>
     </div>
     <!-- accordion-panel: death -->
     <div>
       <input type="checkbox" name="panel" id="death">
-      <label for="death">Death and Unconsciousness:</label>
+      <label for="death">Death 💀💀💀 ＆ Unconsciousness 💤</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
@@ -76,31 +76,31 @@ permalink: /RPGs/5eDnD/house-rules/
     <!-- accordion-panel: gritty-healing -->
     <div>
       <input type="checkbox" name="panel" id="gritty-healing">
-      <label for="gritty-healing">Grittier Healing:</label>
+      <label for="gritty-healing">“Grittier” Healing Mechanics 🩸</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="morituri te salutant">MORE “REASONABLE” AND BALANCED NATURAL-HEALING MECHANICS:</h2>
-        <p class="accordion_body" style="color:#e40712;">(tougher and at least slightly more “realistic” healing rules than 5eRAW default, but arguably still plenty “heroic” for fast-paced adventures — especially in settings retaining ample 5eRAW magical-healing options/features and not deviating too far from RAW “bounded-accuracy” mechanics, in general)</p>
+          title="morituri te salutant">MORE “REASONABLE”＆BALANCED NATURAL-HEALING MECHANICS:</h2>
+        <p class="accordion_body" style="color:#e40712;">(tougher and at least slightly more “realistic” healing rules than 5eRAW default, but arguably still plenty “heroic” for fast-paced adventures — especially in settings retaining ample 5eRAW magical-healing options／features and not deviating too far from RAW “bounded-accuracy” mechanics, in general)</p>
         <ul class="accordion_body">
-          <li>Whenever you’re forced unconscious, you also gain one point of exhaustion, in addition to the normal effects. However, the first level of exhaustion is revised/softened to only subtract 10 from Speed, while disadvantage on ability-checks is moved to the second level of exhaustion along with halved-Speed.</li>
-          <li>During a Long-Rest (amending Player’s Handbook page 186), rather than automatically regaining all hit-points up to maximum, a character’s remaining hit-dice (if any) can be spent (rolled + Constitution-modifier for each) as usual to regain hit-points after at least one-hour spent resting rather than engaged in “light activity” on watch (similarly to DMG page 267 “Slow Natural Healing” rules), which is essentially like taking a short-rest within part of the long-rest, and then ½ total hit-dice are regained at the end of any successful long-rest not interrupted by any strenuous adventuring activity (per the usual rules).
-            <ul><li>Furthermore, these just regained ½ of total hit-dice can also be spent immediately to regain hit-points after a successful long-rest during which no more than one-hour out of the eight total was spent by that character at “light activity” such as keeping watch, or these hit-dice can be spent after an immediately subsequent short-rest if time allows (i.e. nine hours total rest with up to two hours light-activity or on watch as with a typical long-rest). As usual, a character can only benefit mechanically from one long-rest per 24 hour period — so spending hit-dice immediately after a successful long-rest that might be needed before another long-rest can be completed is a calculated risk. In most settings, the DM anticipates this should be somewhat balanced by the possibility in many cases of attempting to flee or tactically-retreat by vehicle, mounts, or other magical means to escape danger if necessary (which isn’t usually an option in other settings or dire stakes battles that need to be won at any cost), as well as by encouraging increased “fast-forwarded” and summarized “downtime” compared to an overland campaign under constant threat in a “megadungeon” or perilous wilderness, though there is no doubt this will sometimes require the party to be more strategic compared to a traditional “heroic” high-fantasy campaign with routine miraculously complete recovery after each night’s long-rest. This house-rule is also intended as a counterbalance to the “single encounter day” dynamics common in many homebrew or sandbox campaigns wherein short-rests are often less common than 5eD&D RAW rules anticipate and expect for ideal PC “resource-depletion” mechanics via multiple combat encounters per day.</li></ul>
+          <li>Whenever you’re forced unconscious, you also gain one point of exhaustion, in addition to the normal effects. However, the first level of exhaustion is revised／softened to only subtract 10 from Speed, while disadvantage on Ability-Checks is moved to the second level of exhaustion along with halved-Speed.</li>
+          <li>During a Long-Rest <small>(amending Player’s Handbook page 186)</small>, rather than automatically regaining all hit-points up to maximum, a character’s remaining hit-dice (if any) can be “spent” (rolled＋Constitution-modifier for each) as usual to regain hit-points after at least one-hour spent resting rather than engaged in “light activity” on watch <small>(similarly to DMG page 267 “Slow Natural Healing” rules option)</small>, which is essentially like taking a short-rest within the first hour of an attempt at a long-rest, and then ½ total hit-dice are regained at the end of any successfully completed long-rest not interrupted by any “strenuous” adventuring activity or combat (per the usual rules).
+            <ul><li>Furthermore, these just regained ½ of total hit-dice can also optionally be spent immediately to regain hit-points after a successful long-rest during which no more than one-hour out of the eight hour total was spent by that character at “light activity” such as keeping watch, or these hit-dice can be spent after an immediately subsequent short-rest if time allows (i.e. nine hours total rest including up to two hours of light-activity or time “on watch” as with a typical long-rest immediately followed by a short-rest). As usual, a character can only benefit mechanically from one long-rest per 24 hour period — so spending hit-dice immediately after a successful long-rest that could be more urgently needed later in the impending adventuring day before another long-rest can be completed is a calculated risk! In most settings, the DM anticipates this house-rule could be somewhat balanced by the possibility in many cases of attempting to flee or tactically-retreat by vehicle, mounts, or other magical means to temporarily escape danger if necessary (though this isn’t always an option in particularly perilous settings or relentless dire stakes battles that need to be won at any cost), as well as by encouraging increased “fast-forwarded” and summarized “downtime” compared to an overland campaign under constant threat in a “megadungeon” or dangerous wilderness, though there is no doubt this will sometimes require PCs to be more strategic compared to a traditional “heroic” high-fantasy campaign with routine “miraculously complete” recovery after each night’s long-rest. This house-rule is also intended as a counterbalance to the “single encounter day” dynamics common in many homebrew or sandbox campaigns wherein short-rests are often significantly more infrequent than 5eD&D guidelines anticipate and expect for ideal PC “resource-depletion” mechanics via multiple combat encounters per adventuring day.</li></ul>
           </li>
-          <li>To compensate somewhat for increased grittiness in healing and recovery mechanics, a sensible house-rule can be to roll the hit-die for the increase to maximum hit-points upon each level-up, but let any roll below the average number [“(or ?)” next to the hit-die in the class description] default to that average number as a “floor” (plus Constitution-modifier as usual).</li>
-          <li><span style="color:green;font-weight:bold;">Healer feat</span> (PHBpage167): When you use a healer’s kit to stabilize a dying creature as an action, that creature also regains 1 hit-point and typically regains consciousness. During a short-rest (not as an action), you can spend one use of a healer’s kit per hour to tend extensively to one creature and restore 1d6+4 hit-points to it plus additional hit-points equal to your proficiency-bonus. The creature cannot regain hit-points from this feat again until it finishes a long-rest (and you do not gain the benefits of a short-rest if working on healing someone during it, however, using the kit in this way during a long-rest can be done as part of time “on watch” and still allow the healer to gain the benefits of the long-rest as long as no more than two creatures are healed in this way, in place of the normal two hours of “light activity” or “on-watch” time allowed during any successful long-rest).</li>
+          <li>To compensate somewhat for the increased “grittiness” of these stricter healing and recovery mechanics, a sensible complementary house-rule could be to roll the hit-die for the increase to maximum hit-points upon each level-up, but let any roll below the average number [i.e. the “(or ?)” listed next to the hit-die type designated in each class description] default to that average number as a “floor” (plus Constitution-modifier as usual).</li>
+          <li><span style="color:green;font-weight:bold;">Healer feat </span><small>(PHB page 167)</small>: When you use a healer’s kit to stabilize a dying creature as an action, that creature also regains 1 hit-point and typically regains consciousness. During a short-rest (not as an action), you can spend one use of a healer’s kit per hour to tend extensively to one creature and restore 1d6＋4 hit-points to it plus additional hit-points equal to your proficiency-bonus. The creature cannot regain hit-points from this feat again until it finishes a long-rest (and you do not gain the benefits of a short-rest if working on healing someone during it, however, using the kit in this way during a long-rest can be done as part of time “on watch” and still allow the healer to gain the benefits of the long-rest as long as no more than two creatures are healed in this way, in place of the normal two hours of “light activity” or “on-watch” time allowed during any successful long-rest).</li>
         </ul>
       </div>
     </div>
     <!-- accordion-panel: hardcore-mode -->
     <div>
       <input type="checkbox" name="panel" id="hardcore-mode">
-      <label for="hardcore-mode">HARDCORE-MODE!</label>
+      <label for="hardcore-mode">HARDCORE-MODE! ☠️⚠️</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="Qui Audet Adipiscitur">“oD&D style” gritty NATURAL-HEALING RULES:</h2>
-        <p class="accordion_body" style="color:#e40712;">(an attempt at significantly tougher and relatively much more “realistic” healing rules than 5eRAW default, mostly inspired by Starfinder as well as older “classic” editions of D&D mechanics — but still arguably adequately “heroic” and “playable” within 5eD&D mechanics, especially in settings retaining ample 5eD&D RAW magical-healing options/features; however, these rules certainly may increase impetus for PCs to more frequently seek “downtime” recovery interludes and tactical-retreats, or else they will significantly increase lethality risks of multiple prolonged combats over time whenever extended respite is not possible)</p>
+          title="Qui Audet Adipiscitur">“oD&D style” extremely “gritty” NATURAL-HEALING RULES🩸</h2>
+        <p class="accordion_body" style="color:#e40712;">(an attempt at significantly tougher and relatively much more “realistic” healing rules and “lingering” injuries than 5eRAW default, mostly inspired by Starfinder as well as older “classic” editions of D&D mechanics and the “Old School Renaissance” movement revamping and reorganizing them — but still remaining adequately “heroic” and arguably “playable” within otherwise mostly traditional 5eD&D mechanics, especially in settings retaining ample 5eD&D RAW magical-healing options／features available to PCs; however, these rules certainly may increase impetus for PCs to more frequently seek extended “downtime” recovery interludes and tactical-retreats, or else they will significantly increase the lethality risks of multiple prolonged combats over time using these rules whenever extended respite is not possible)</p>
         <ul class="accordion_body">
           <li>Whenever you’re forced unconscious, you also gain one point of exhaustion, in addition to the normal effects. However, the first level of exhaustion is revised/softened to only subtract 10 from Speed, while disadvantage on ability-checks is moved to the second level of exhaustion along with halved-Speed.</li>
           <li>Instead of simply a pool of hit-points as per 5eD&D RAW, player-characters (and some important monsters or NPCs who may follow similar mechanics at the DM’s discretion) have both “hit-points” and “Stamina-points” which increase at each level, with a separate and distinct maximum-total for each maintained as the character gains levels.</li>
@@ -123,24 +123,24 @@ permalink: /RPGs/5eDnD/house-rules/
     <!-- accordion-panel: help-action -->
     <div>
       <input type="checkbox" name="panel" id="help-action">
-      <label for="help-action">Help action caveats:</label>
+      <label for="help-action">Help action caveats 🆘</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="“teamwork makes the dream work”">Our Powers Combine:</h2>
+          title="“teamwork makes the dream work”">Our Powers Combine 🫱🏽‍🫲🏼 </h2>
         <p class="accordion_body">In most circumstances, unless the DM wants to make a specific contextual exception for some reason or contextually rules that the skill-use in question doesn’t require exceptionally intricate talents or coordination to effectively collaborate on, in order to give someone “help” with a Skill-check by using the “Help” action, the “helper” must almost always be “proficient” with the relevant skill that the creature receiving help is using, otherwise the “helper” would just be more likely to get in the way, impede the use of the skill by the character primarily performing the action, lack some prerequisite training or lore necessary to contribute any meaningful assistance to a highly technical or obscure challenge, or otherwise cause problematic or distracting complications that would somehow interfere with the skill-use. These rules add greater realism to the basic options for the “Help” Action presented on page 192 of the Player’s Handbook</p>
       </div>
     </div>
     <!-- accordion-panel: Identify spell -->
     <div>
       <input type="checkbox" name="panel" id="identify">
-      <label for="identify">Identify:</label>
+      <label for="identify">Identify ℹ️❔</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="omne ignotum pro mαgnifico">PUTTING SOME MYSTIQUE BACK INTO ITEM IDENTIFICATIONS:</h2>
+          title="omne ignotum pro mαgnifico">PUTTING SOME MYSTIQUE BACK INTO ITEM IDENTIFICATIONS❓</h2>
         <ul class="accordion_body">
-          <li><span style="color:#e40712;">Ignore 5eDMG page 136 — “Alternatively, a character can focus on one magic item during a short rest, while being in physical contact with the item. At the end of the rest, the character learns the item’s properties, as well as how to use them. Potions are an exception; a little taste is enough to tell the taster what the potion does.”</span>
+          <li><span style="color:#e40712;">Ignore 5eDMG page 136 — “Alternatively, a character can focus on one magic item during a short rest, while being in physical contact with the item. At the end of the rest, the character learns the item’s properties, as well as how to use them. Potions are an exception; a little taste is enough to tell the taster what the potion does.” 🤬</span>
             <ul>
               <li>Instead more strictly, experimentally, and mysteriously prefer rules along the lines of the following in the DMG:</li>
               <li style="color:#2980b9;font-style:italic;">&laquo;Wearing or experimenting with an item can also offer hints about its properties. For example, if a character puts on a ring of jumping, you could say, “Your steps feel strangely springy.” Perhaps the character then jumps up and down to see what happens. You then say the character jumps unexpectedly high... Sometimes a magic item carries a clue to its properties. The command word to activate a ring might be etched in tiny letters inside it, or a feathered design might suggest that it’s a ring of feather falling.&raquo;</li>
@@ -149,7 +149,7 @@ permalink: /RPGs/5eDnD/house-rules/
               <li>Also, per 5eDMG page 138 — Most methods of identifying items, including the “Identify” spell, will fail to reveal a curse, although lore might hint at it. A curse should be a surprise to the item’s user when the curse’s effects are revealed. Attunement to a cursed item can’t be ended voluntarily unless the curse is broken first, such as with the “remove curse” spell.</li>
             </ul>
           </li>
-          <li><span style="color:gold;">“Identify” Spell</span> revised to:
+          <li><span style="color:gold;">“Identify” Spell ℹ️📜🔍</span> revised to:
             <ul>
               <li style="font-style:italic;">1st-level divination (ritual)</li>
               <li>Casting Time: 1 minute, Range: Touch, Components: V, S, M (a pearl worth at least 100gp and an owl feather) Duration: Instantaneous</li>
@@ -162,31 +162,31 @@ permalink: /RPGs/5eDnD/house-rules/
     <!-- accordion-panel: intelligence -->
     <div>
       <input type="checkbox" name="panel" id="intelligence">
-      <label for="intelligence">Intelligence-modifier:</label>
+      <label for="intelligence">Intelligence-modifier ＋🧠</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="“Elementary, my dear...”">Scientia Potestas Est:</h2>
-        <p class="accordion_body">If you have a positive Intelligence-modifier of at least +2, you can take ½ of your Intelligence-modifier (rounded-down) of extra Languages that you can speak, read, and write — or tool-proficiencies (i.e. up to two extra languages or tools with the maximum 20 Intelligence-score and a +5 Intelligence-modifier). This house-rule is an attempt to somewhat better balance Intelligence against the benefits of other primary abilities such as Dexterity or Wisdom or Charisma.</p>
+          title="“Elementary, my dear...”">Scientia Potestas Est 💬📖🛠</h2>
+        <p class="accordion_body">If you have a positive Intelligence-modifier of at least +2, you can take ½ of your Intelligence-modifier (rounded-down) of extra Languages that you can speak, read, and write — or tool-proficiencies (i.e. up to two extra languages or tools with the maximum 20 Intelligence-score and a +5 Intelligence-modifier). This house-rule is an attempt to somewhat better balance Intelligence against the more commonly useful benefits of other primary Ability Scores such as Dexterity or Wisdom or Charisma.<br><br>Consider allowing Warlocks with Intelligence as their casting stat in cases where the DM and player agree this can be appropriately flavored with the Warlock’s Patron of choice. If this house-rule is allowed, the class description and functionalities should work as written with any Warlock related mention of Charisma in class mechanics substituting Intelligence and Intelligence modifier instead.</p>
       </div>
     </div>
     <!-- accordion-panel: potions -->
     <div>
       <input type="checkbox" name="panel" id="potions">
-      <label for="potions">Potions:</label>
+      <label for="potions">Potions 🍾</label>
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="変若水 “ochimizu”">VISCE BEATHA:</h2>
-        <p class="accordion_body">A character can drink a potion as a bonus-action <span style="text-decoration:underline;">or</span> as an action, however, it still requires an action to feed a potion to another creature — and, in either case, requires at least one free hand in addition to consuming the one “interact with object” action typically available per turn, which is required to draw the potion forth from where it was accessibly carried and get it ready to drink or feed to someone (with a couple fingers of a second hand or one’s teeth or thumb assumed to be sufficient to unstopper a potion in most cases). Also remember: for the purposes of gaining a free-hand if necessary to use the one free “interact with object” action plus either an action or bonus-action for potion use, dropping anything that a character may be holding in one or both hands in order to free one up is a “free” action, and most “two-handed” weapons can arguably be temporarily held in one hand while not in use for active wielding which requires both hands.</p>
+          title="変若水 “ochimizu”">VISCE BEATHA 🗣🌡</h2>
+        <p class="accordion_body">A character can drink a potion as a bonus-action <span style="text-decoration:underline;">or</span> as an action, however, it still requires an action to feed a potion to another creature — and, in either case, requires at least one free hand in addition to consuming the one free “interact with object” action typically available per turn <small>(PHB page 190)</small>, which is required to draw the potion forth from where it was accessibly carried and get it ready to drink or feed to someone (with a couple fingers of a second hand or one’s teeth or thumb assumed to be sufficient to unstopper a potion in most cases). Also remember: for the purposes of gaining a free-hand if necessary to use the one free “interaction with object” per turn plus either an action or bonus-action for potion use, dropping anything that a character may be holding in one or both hands in order to free one up is a “free” action, and most “two-handed” weapons can arguably be temporarily held in one hand while not in use for active wielding which requires both hands.</p>
         <p class="accordion_body">However, in order to add a bit more dramatic risk to this common house-rule (which both speeds up combat and enhances everyone’s fun by preventing players from having to so often “waste” entire turns drinking potions), it could be ruled that drinking a potion as a bonus-action or feeding one to someone as an action, in addition to any other similar object interaction that the DM deems may put a character momentarily “off-guard” during combat (such as loading a weapon with that property, interacting with any relatively complex mechanism beyond operating a mere single switch/lever, handle, or knob, etc.), might provoke a reaction “attack-of-opportunity” from any adjacent hostile creatures within mêlée-attack-range and/or grant advantage on attacks against that character until their next turn, at the DM’s discretion!</p>
       </div>
     </div>
   </div><!-- .accordion -->
   <h3>
     <ul>
-      <li><a href="/RPGs/homebrew/firearms/">5eD&D weapons + firearms homebrew options</a></li>
-      <li><a href="/RPGs/homebrew/vehicles/">5eD&D vehicle homebrew options</a></li>
+      <li><a href="/RPGs/homebrew/firearms/">5eD&D weapons＋firearms homebrew options 💥</a></li>
+      <li><a href="/RPGs/homebrew/vehicles/">5eD&D vehicle homebrew options 🚂⚙️🪂</a></li>
     </ul>
   </h3>
   <p>
@@ -206,21 +206,14 @@ permalink: /RPGs/5eDnD/house-rules/
       <div class="accordion_content">
         <h2 
           class="accordion_header" 
-          title="“Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.”">SPELLS-KNOWN UPGRADE:</h2>
-        <p class="accordion_body">Warlocks should arguably automatically get all the “Patron Spells” listed for their selected Patron as spells known when they reach the indicated Warlock levels, and this house-rule would further specify that these “Patron spells” do not compete with or count against the normal numbers of Warlock “spells known” that must be selected from the Warlock list. Thus, they don’t have to choose between either Patron Spells or the generic Warlock spells, they just get the Patron spells (similarly to Paladin or Cleric Oath/Domain spells). Warlocks have few enough spells they can cast in a day that this is arguably harmless enough to game balance. Warlocks would become slightly more viable and versatile spellcasters with this house-rule, plus players can connect a lot more easily with the flavor of their “patron” when granted this boon.</p>
+          title="“Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.”">SPELLS-KNOWN UPGRADE✨</h2>
+        <p class="accordion_body">Warlocks should arguably automatically get all the “Patron Spells” listed for their selected Patron as spells known when they reach the indicated Warlock levels, and this house-rule would further specify that these “Patron spells” do not compete with or count against the normal numbers of Warlock “spells known” that must be selected from the Warlock list. Thus, they don’t have to choose between either Patron Spells or learning more typical／generic Warlock spells, they just get their “Patron spells” at each designated level (similarly to Paladin or Cleric Oath／Domain spells). Warlocks have few enough spells they can cast in a day that this is arguably harmless enough to game balance unless your games tend to have far more short rests and daily combats than usual. Anyway, Warlocks would become arguably become significantly more fun and versatile spellcasters with this house-rule, plus it ensures that PCs can connect a lot more easily with the flavor of their “patron” when granted this boon to augment their magical options.</p>
       </div>
     </div>
   </div><!-- .accordion -->
   <h3>
     <ul><li><a href="/RPGs/homebrew/Beastmaster-Ranger/">Ranger &#10137; Beastmaster</a></li></ul>
   </h3>
-  <p>
-    <img 
-      id="bow-arrow_Artemesian" 
-      src="/IMAGES/bow-arrow_Artemesian.png" 
-      alt="decorative Artemesian bow and arrow" 
-      style="margin:0 auto;" 
-      height="auto" width="50">
-  </p>
+  <br><br>
   <p><a href="/RPGs/">&#8672; return to main RPGs page</a></p>
 </div><!-- .page -->
