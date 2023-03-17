@@ -1,26 +1,25 @@
 ---
 layout: page
-title: 👐🏼ȫpenṨource projects 🛠
+title: 👐🏼 ȫpenṨource projects 🛠
 permalink: /professional-portfolio/
 ---
-Welcome to the [web-development and software-engineering]({{base}}/resume/) [open-source and personal projects](https://github.com/BFGriffith?tab=repositories) portfolio of B.F. Griffith — a skilled “full-stack” practitioner with several years of coding experience designing﹠planning as well as functionally developing, deploying, and maintaining responsive, efficient, and user-friendly enterprise scale applications using a variety of frameworks and libraries.
+Welcome to the [web-development＆software-engineering]({{base}}/resume/) [**open-source** personal or hobby projects](https://github.com/BFGriffith?tab=repositories) portfolio of B.F. Griffith: a skilled full-stack developer, Systems Administrator, and front-end UI/UX expert with more than half a decade of coding experience designing﹠planning as well as functionally writing, deploying, and maintaining responsive, efficient, and user-friendly enterprise scale applications using a variety of frameworks﹠libraries. Many of the projects featured below represent his earlier progress learning to code prior to 2017. Since then, the overwhelming majority of his most advanced work for (mostly Federal) clients has unfortunately been closed-source, though he is endeavoring to make more progress on some of the following ongoing open-source side projects in the coming years…
 <h3>
   <a href="{{base}}/about/">Ben Forbes Griffith</a><span> &#10137; </span>
   <a href="https://twitter.com/BFGriffith">
-    <img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = @BFGriffith" />@BFGriffith
+    <img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = @BFGriffith" />＠BFGriffith
   </a>
 </h3>
 <p class="message" style="float:left;width:100%;">
   <a href="{{base}}/resume">
-    <img style="float:right;max-width:20%;margin-top:1rem;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="50px" width="auto" />
+    <img style="float:right;max-width:20%;margin-top:0.5rem;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="100px" width="auto" />
       <span style="float:left;max-width:80%;">
-        <strong>web-developer and software-engineer</strong>&nbsp;with strong UX and design sensibilities and a talent for implementing dynamic layouts with complex structures
+        <strong>web-developer＆software-engineer</strong>&nbsp;with strong UX＆design sensibilities as well as a talent for implementing dynamic layouts with complex structures＆workflows
       </span>
   </a>
   <br>
 </p>
-<a href="#contact-the-developer">contact me
-</a>
+<a href="#contact-the-developer">contact me</a>
 
 # links to showcase Applications:
 
@@ -74,7 +73,7 @@ Welcome to the [web-development and software-engineering]({{base}}/resume/) [ope
 - [minimalist **“basic” professional portfolio**](https://basic-professional-portfolio.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/Basic-Portfolio)
 - [The Iron Yard, Orlando — coding-bootcamp **template assignments**](https://github.com/BFGriffith/TIY-Assignments)
 
-### links to pending major projects still in the process of development:
+### links to planned or pending major projects still in the process of development:
 - [**Poementor**, “M.E.A.N.-stack” version](https://github.com/BFGriffith/Poementor)
 - [**Sagalog**](https://github.com/BFGriffith/sagalog): a Campaign-Management-System for tabletop-roleplaying games 
 - [**Agendiary**](https://github.com/BFGriffith/agendiary)
@@ -86,15 +85,15 @@ Welcome to the [web-development and software-engineering]({{base}}/resume/) [ope
 # CONTACT the developer:
 <p class="message"><span>Have questions or want to collaborate on a project? Feel free to </span>
   <a href="https://twitter.com/BFGriffith" target="_blank">
-    <span>ask me on Twitter</span>
-    <img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = @BFGriffith" />
-  </a> or <a href="mailto:benjaminforbesgriffith@gmail.com">send me an <strong>email</strong>.</a>
+    <span>message or inquire on Twitter</span>&nbsp;
+    <img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = @BFGriffith" />…
+  </a>
 </p>
 
 Thanks for reading!
 <hr>
-The ongoing development of this [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com) [personal website]({{base}}/) and [portfolio]({{base}}/professional-portfolio) is currently designated as:
+The ongoing development of this [GitHub Pages](https://pages.github.com/)＋[Jekyll](http://jekyllrb.com) [personal website]({{base}}/) and [portfolio]({{base}}/professional-portfolio) is currently designated as:
 <br>
-<span style="font-size:0.66rem;">version </span>
+<span style="font-size:0.66rem;">version&nbsp;</span>
 <span>{{site.version}}</span>
-<p>Please feel free to <a href="{{site.github.repo}}" target="_blank">visit this site’s GitHub repository</a> if you want to learn more about how this particular flavor of static-content “internet sausage” gets made — or are looking for inspiration regarding what you could easily develop with a similarly constructed site on your own (free-hosting!) GitHub.io domain.</p>
+<p>Please feel free to <a href="{{site.github.repo}}" target="_blank">visit this site’s GitHub repository</a> if you want to learn more about how this particular flavor of static-content “internet sausage” gets made, or if you’re looking for inspiration regarding what you could relatively easily＆conveniently develop with a similarly constructed site on your own (free-hosting!) <a href="https://docs.github.com/en/pages" target="_blank"><code>GitHub.io</code></a> domain.</p>

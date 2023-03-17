@@ -39,15 +39,12 @@ var wordflick = function () {
     if (forwards) {
       if (offset >= words[i].length) {
         ++skip_count;
-        if (skip_count == skip_delay) {
-          forwards = false; skip_count = 0;
-        }
+        if (skip_count == skip_delay) { forwards = false; skip_count = 0; }
       }
     }
     else {
       if (offset == 0) {
-        forwards = true;
-        i++; offset = 0;
+        forwards = true; i++; offset = 0;
         if (i >= len) { i = 0; }
       }
     }
@@ -73,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
 Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural experience for him－featuring such awesome highlights as the world-class Toledo Museum of Art or the irreplaceable Rusty’s Jazz Cafe 🎷 (which featured live music every night for almost 40 years)－as well as plenty more to do in nearby Ann Arbor, Michigan.
 
 <p>⛵Also, due to its proximity to the Western end of Lake Erie, it was a great region in which to learn to sail and enjoy dinghy racing and freshwater cruising－especially to nearby Put-in-Bay on South Bass Island as well as Cedar Point (near Sandusky), the roller-coaster capital of the world!🎢</p>
-<p>During his boyhood and most of his primary and secondary schooling, B.F. Griffith was fortunate enough to attend <a href="https://www.mvcds.org/" target="_blank">Maumee Valley Country Day school</a>, an idyllic and nurturingly rigorous extremely creative independent liberal-arts environment with an extraordinarily worldly pluralistic outlook and inquisitive Deweyan pedagogy. Indeed, while he was privileged to have many inspirational intellectual influences throughout his youth, it’s no exaggeration to acknowledge that this school changed his life－and that many of the personal qualities, interests, and habits of mind that bring him the most joy, and have most enduringly shaped his intellect, would definitely not be nearly so thoroughly cultivated or as deeply ingrained and abiding capabilities or characteristics if he’d been educated elsewhere. In a more just world than the one we live in, everyone should be so lucky as to have such exceptional educational opportunities, which should ideally always be about so much more than merely basic “professional” or career skills training at minimal cost to taxpayers.</p>
+<p>During his boyhood and most of his primary and secondary schooling, B.F. Griffith was extremely fortunate to attend <a href="https://www.mvcds.org/" target="_blank">Maumee Valley Country Day school</a>, an idyllic and nurturingly rigorous extremely creative independent liberal-arts environment with an extraordinarily worldly pluralistic outlook and inquisitive Deweyan pedagogy. Indeed, while he was privileged to have many inspirational intellectual influences throughout his youth, it’s no exaggeration to acknowledge that this school changed his life－and that many of the personal qualities, interests, and habits of mind that bring him the most joy, and have most enduringly shaped his intellect, would definitely not be nearly so thoroughly cultivated or as deeply ingrained and abiding capabilities or characteristics if he’d been educated elsewhere. In a more just world than the one we live in, everyone should be so lucky as to have such exceptional educational opportunities, which ideally always ought to be about so much more than merely basic “professional” or career skills training at minimal cost to taxpayers.</p>
 <p>Anyway, as an adult, Mr. Griffith has thus far ended up settling-down in Central Florida, where he resides with his wife and several pets, surrounded by plenty of vibrant local creative culture and entertainment to enjoy in addition to being situated within easy drive of many delightful freshwater cool springs as well as a variety of famous beaches along both the Atlantic﹠Gulf coasts. 🌊🏖</p>
 <p class="lead">
   <h3>Ben Forbes Griffith &#10137; <a id="T_handle" href="https://twitter.com/BFGriffith" target="_blank"><span><img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = "> @BFGriffith</span></a>
@@ -186,10 +183,10 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
     <div class="accordion_content">
       <!-- <h2 class="accordion_header">Header</h2> -->
       <div class="accordion_body"><br>
-        <p>At the risk of being a bit esoteric,&#129335;
+        <p><small style="color:#2980b9 !important;">At the risk of being a bit esoteric, &#129335;
           <br>I’ll share some of my favorite quotes here:
           <br>drawn from a wide variety of sources
-          <br>and in no particular sequence…
+          <br>and in no particular sequence…</small>
         </p>
         <p>“Truth may seem, but cannot be;
         <br>Beauty brag, but `tis not she;
