@@ -3,10 +3,10 @@ layout: page
 title: 👐🏼 ȫpenṨource projects 🛠
 permalink: /professional-portfolio/
 ---
-Welcome to the [web-development＆software-engineering]({{base}}/resume/) [**open-source** personal or hobby projects](https://github.com/BFGriffith?tab=repositories) portfolio of B.F. Griffith: a skilled full-stack developer, Systems Administrator, and front-end UI/UX expert with more than half a decade of coding experience designing﹠planning as well as functionally writing, deploying, and maintaining responsive, efficient, and user-friendly enterprise scale applications using a variety of frameworks﹠libraries. Many of the projects featured below represent his earlier progress learning to code prior to 2017. Since then, the overwhelming majority of his most advanced work for (mostly Federal) clients has unfortunately been closed-source, though he is endeavoring to make more progress on some of the following ongoing open-source side projects in the coming years…
+Welcome to the [web-development＆software-engineering]({{base}}/resume/) [**open-source** personal or hobby projects](https://github.com/BFGriffith?tab=repositories) portfolio of B.F. Griffith: a skilled full-stack developer, Systems Administrator, and front-end UI/UX expert with nearly a decade of coding experience designing﹠planning as well as functionally writing, deploying, and maintaining responsive, efficient, and user-friendly enterprise scale applications using a variety of frameworks﹠libraries. Many of the projects featured below represent his earlier progress learning to code prior to 2017. Since then, the overwhelming majority of his most advanced work for (mostly Federal) clients has unfortunately been closed-source, though he is endeavoring to make more progress on some of the following ongoing open-source personal side projects in the coming years…
 <h3>
   <a href="{{base}}/about/">Ben Forbes Griffith</a><span> &#10137; </span>
-  <a href="https://twitter.com/BFGriffith">
+  <a href="https://twitter.com/BFGriffith" id="T_handle">
     <img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = @BFGriffith" />＠BFGriffith
   </a>
 </h3>
@@ -19,17 +19,23 @@ Welcome to the [web-development＆software-engineering]({{base}}/resume/) [**ope
   </a>
   <br>
 </p>
-<a href="#contact-the-developer">contact me</a>
+<a href="#contact-the-developer">contact B.F. Griffith</a>
 
-# links to showcase Applications:
+# links to personal project Applications:
+> 💥 **NOTE:** Many of the following applications still have their code visible on GitHub but are currently no longer hosted since **Heroku** ended their free tier of cloud based deployment platforms in November of 2022; unfortunately, many of these small demo projects had been conveniently deployed there, but BFGriffith has not yet managed to find＆implement a suitable alternate free replacement for most of these❗🏗
 
 <ul>
+  <li>
+    <a href="https://diana-artwork.github.io">🎨 ART portfolio of my awesome wife, Diana!</a>
+    <span> — </span>
+    <a href="https://github.com/Diana-Artwork/Diana-Artwork.github.io">GitHub repository</a>
+  </li>
   <li>
     <a href="https://poem-patterns.herokuapp.com/">
       <strong>Poementor</strong>
     </a>
     <span> — </span>
-    <a href="https://github.com/BFGriffith/Poem-Patterns">GitHub repository
+    <a href="https://github.com/BFGriffith/Poem-Patterns">GitHub repository
       <img style="display:inline;margin:0;" src="/IMAGES/PP_logo-sketch.png" alt="Poementor logo" height="14px" width="14px" />
     </a>
   </li>
@@ -38,12 +44,14 @@ Welcome to the [web-development＆software-engineering]({{base}}/resume/) [**ope
       <strong>Spaced-Repetition</strong>
     </a>
     <span> — </span>
-    <a href="https://github.com/BFGriffith/spaced-repetition">GitHub repository</a>
+    <a href="https://github.com/BFGriffith/spaced-repetition">GitHub repository</a>
   </li>
 </ul>
 
 
-### skill/design/framework *demonstration* TEMPLATES and practice Applications:
+### skill／design／framework *demonstration* TEMPLATES＋practice Applications:
+- [**scriptorium**](https://github.com/BFGriffith/scriptorium)
+  - useful free＆open-source “CopyLEFT” convenience scripts to operationalize repetitive or annoying tasks with reassuringly verbose procedural outputs as well as thorough documentation or overengineered interactivity features wherever possible…
 - [**ReactJS-search**](https://reactjs-search.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/ReactJS-search)
   - a “MERN-stack” (Mongo, Express, React, Node) search application that uses ReactJS helper functions and the React mounting-lifecycle to query and display articles dynamically based on user searches and optionally store them for later reading
 - [**CheerioMongo-scraper**](https://cheeriomongo-scraper.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/CheerioMongo-scraper)
@@ -68,12 +76,10 @@ Welcome to the [web-development＆software-engineering]({{base}}/resume/) [**ope
     - hangman
     - “psychic”
     - rock, paper, scissors
-- [sample **professional portfolio**](https://bfgriffith-portfolio.herokuapp.com/index.html) — [GitHub repository](https://github.com/BFGriffith/BFGriffith-portfolio)
-  - professional portfolio repository (powered by Twitter “Bootstrap”)
-- [minimalist **“basic” professional portfolio**](https://basic-professional-portfolio.herokuapp.com/) — [GitHub repository](https://github.com/BFGriffith/Basic-Portfolio)
 - [The Iron Yard, Orlando — coding-bootcamp **template assignments**](https://github.com/BFGriffith/TIY-Assignments)
 
-### links to planned or pending major projects still in the process of development:
+### links to planned or pending major projects still in the process of design＆development:
+- [**Pansophical Pursuits**](https://github.com/BFGriffith/pansophical-pursuits)
 - [**Poementor**, “M.E.A.N.-stack” version](https://github.com/BFGriffith/Poementor)
 - [**Sagalog**](https://github.com/BFGriffith/sagalog): a Campaign-Management-System for tabletop-roleplaying games 
 - [**Agendiary**](https://github.com/BFGriffith/agendiary)
@@ -87,10 +93,10 @@ Welcome to the [web-development＆software-engineering]({{base}}/resume/) [**ope
   <a href="https://twitter.com/BFGriffith" target="_blank">
     <span>message or inquire on Twitter</span>&nbsp;
     <img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = @BFGriffith" />…
-  </a>
+  </a><br><br>Additionally, for anyone interested in actually <i>learning</i> <u>how</u> to code, B.F. Griffith is always more than happy to chat about his experiences in the tech industry over some coffee or tea sometime to offer whatever advice or mentorship he possibly can! That said, please do strive to be a “worthy” cyberspace citizen who respects the time﹠expertise of others by keeping in mind the enduring wisdom that…<br><a href="http://www.catb.org/~esr/faqs/smart-questions.html" target="_blank" style="font-weight:bold;">Consilio, quod respuitur, nullum subest auxilium. Homines facientes adiuvant. Sunt facta verbis difficiliora.</a> 🧑🏽‍💻<br>Manere humilem…
 </p>
 
-Thanks for reading!
+Thanks for reading!🖖🏼
 <hr>
 The ongoing development of this [GitHub Pages](https://pages.github.com/)＋[Jekyll](http://jekyllrb.com) [personal website]({{base}}/) and [portfolio]({{base}}/professional-portfolio) is currently designated as:
 <br>
