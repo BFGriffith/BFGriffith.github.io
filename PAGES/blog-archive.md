@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 🗂 BLOG 🗃 ARCHIVE 🗄
-permalink: /blog-archive/
+title: 🗂 Journal 🗃 ARCHIVES 🗄
+permalink: /journals-archive/
 ---
 
-Welcome to a reverse-chronological archive of the [web-development and software-engineering blog]({{base}}/coding-blog/) of [**B.F. Griffith**]({{base}}/about), a [skilled full-stack practitioner with several years of coding experience designing and planning as well as functionally developing, deploying, and maintaining responsive, efficient, and user-friendly enterprise-scale applications using a variety of frameworks and libraries.]({{base}}/resume/)
-<p>Please feel free to browse by title to read posts pertaining to whichever subjects most interest you. 🖖🏼
-</p><!--Vulcan-salute-->
+Welcome to a reverse-chronological archival index of the sporadic public [JOURNAL entries]({{base}}/journal/) of [**B.F. Griffith**]({{base}}/about), a [skilled full-stack web-development practitioner with extensive experience designing＆planning as well as functionally developing, deploying, or maintaining responsive, efficient, and user-friendly enterprise-scale applications using a variety of popular frameworks＆libraries.]({{base}}/resume/)
+<p>Please feel free to browse around by title to read entries pertaining to whichever subjects most interest you. 🖖🏼
+</p>
 <p>
   <img 
     id="bow-arrow_Artemesian" 

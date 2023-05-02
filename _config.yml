@@ -9,7 +9,7 @@ permalink:        pretty
 # setup
 title:            'B.F.G.'
 tagline:          'online demesne'
-description:      '<a class="siteDescriptionLink" href="https://bfgriffith.github.io/about/">personal internet demesne</a>,<br><a class="siteDescriptionLink" href="https://bfgriffith.github.io/professional-portfolio/">web-development</a> and<br><a class="siteDescriptionLink" href="https://bfgriffith.github.io/writing-portfolio/">creative-writing</a> portfolios,<br>and wide-ranging <a class="siteDescriptionLink" href="https://bfgriffith.github.io/blog-archive/">blog</a>'
+description:      '<a class="siteDescriptionLink" href="https://bfgriffith.github.io/about/">personal internet demesne</a>,<br><a class="siteDescriptionLink" href="https://bfgriffith.github.io/professional-portfolio/">web-development</a> and<br><a class="siteDescriptionLink" href="https://bfgriffith.github.io/writing-portfolio/">creative-writing</a> portfolios,<br>and <a class="siteDescriptionLink" href="https://bfgriffith.github.io/journals-archive/">public journals</a>'
 url:              https://bfgriffith.github.io/
 baseurl:          /
 
@@ -18,7 +18,7 @@ author:
   url:            https://bfgriffith.github.io/
 
 paginate:         1
-paginate_path:    "/coding-blog/page:num/"
+paginate_path:    "/journal/page:num/"
 
 # custom variables
 version:          1.3

@@ -126,7 +126,7 @@ limitations under the License.
                   'Bookman Old Style', Bookman, 'Goudy Old Style',
                   Garamond, 'Hoefler Text', 'Bitstream Charter',
                   Georgia, serif !important;
-      color: #7A200D;
+      color: #7A200D !important;
       font-weight: 700;
       margin: 0px;
       font-size: 23px !important;
@@ -134,9 +134,10 @@ limitations under the License.
       font-variant: small-caps;
     }
     ::slotted(h2) {
+      color: black !important;
       font-weight: normal;
       font-style: italic;
-      font-size: 12px !important;
+      font-size: 18px !important;
       margin: 0;
     }
   </style>
@@ -167,7 +168,7 @@ limitations under the License.
 <template id="top-stats">
 <style type="text/css">
   ::slotted(*) {
-    color: #7A200D;
+    color: #7A200D !important;
   }
 </style>
   <tapered-rule></tapered-rule><slot></slot><tapered-rule></tapered-rule>
@@ -368,7 +369,6 @@ function elementClass(contentNode) {
         <p>&ge;12 <span style="color:gray;">(&wedgeq;19,200 XP as level 20 NPC)</span></p>
       </property-line>
     </top-stats>
-
     <!-- SKILLS -->
     <h3>SKILLS (suggested):</h3>
     <property-block>

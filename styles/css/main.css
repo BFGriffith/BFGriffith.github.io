@@ -78,16 +78,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #313131;
   text-rendering: optimizeLegibility;
 }
-h1 {
+h1, .h1 {
   font-family: 'Comfortaa', 'Rajdhani', 'Amaranth', sans-serif;
   font-size: 1.75rem;
 }
-h2 {
+h2, .h2 {
   font-family: 'Comfortaa', 'Rajdhani', 'Amaranth', sans-serif;
   margin-top: 1rem;
   font-size: 1.5rem;
 }
-h3 {
+h3, .h3 {
   font-family: 'Comfortaa', 'Rajdhani', 'Amaranth', sans-serif;
   margin-top: 1.5rem;
   font-size: 1.25rem;

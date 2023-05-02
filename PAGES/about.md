@@ -144,7 +144,7 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
         title="“The Road goes ever on and on, Down from the door where it began. Now far ahead the Road has gone, And I must follow, if I can…”">“An Unexpected Journey”
         <br>Into Web-Development꞉
       </h2>
-      <p class="accordion_body">Learn more about B.F. Griffith’s midlife transition into a challenging and rewarding second career as a full-stack web-developer by reading his <a href="{{base}}/coding-blog/">blog</a> or checking out his <a href="{{base}}/professional-portfolio/">portfolio of open-source projects</a>﹠<a href="https://github.com/BFGriffith?tab=repositories" target="_blank">code-repositories</a>.&#128187;</p>
+      <p class="accordion_body">Learn more about B.F. Griffith’s midlife transition into a challenging and rewarding second career as a full-stack web-developer by reading some of his occasional public <a href="{{base}}/journal/">journaling</a> or checking out his <a href="{{base}}/professional-portfolio/">portfolio of open-source projects</a>﹠<a href="https://github.com/BFGriffith?tab=repositories" target="_blank">code-repositories</a>.&#128187;</p>
     </div>
   </div>
   <!-- accordion-panel꞉ teaching -->

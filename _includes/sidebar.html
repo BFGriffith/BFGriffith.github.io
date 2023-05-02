@@ -21,12 +21,12 @@
       <a 
         class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" 
         href="/">
-        <span>🏠 HOME</span>
+        <span>🏠 HOME 𑗊</span>
       </a>
       <a 
         class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" 
-        href="/coding-blog/index.html">
-        <span>💻 Coding-Blog</span>
+        href="/journal/index.html">
+        <span>✍🏼 Journal 📓</span>
       </a>
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -43,6 +43,10 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+      <a 
+        href="https://bfgriffith.github.io/pansophical-pursuits/" 
+        class="sidebar-nav-item">&nbsp;🧠 Pansophical Pursuits 💭
+      </a>
       <br>  
       <a 
         id="T_handle" 
