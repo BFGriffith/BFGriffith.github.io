@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🕯 About the Author 👁
+title: 👁 About the Author 👤
 permalink: /about/
 ---
 
@@ -20,7 +20,7 @@ permalink: /about/
 var words = [
   '✍🏼 writer'
   ,'💻 coder'
-  ,'🤯 educator'
+  ,'🤯 educator 🎓'
   ,'📖 bibliophilic ❣️ philosopher 💭'
   ,'⏳🔙📜 historian'
   ,'🔎🧠 skeptic'
@@ -62,7 +62,19 @@ document.addEventListener('DOMContentLoaded', function () {
   wordflick();
 }, false);
 </script>
-
+<hr>
+<div style="font-family: 'Comfortaa', 'Rajdhani';">
+  <span id="author_biographical_summation_tags"></span>
+  &VeryThinSpace;
+  <!-- <span>✍🏼 writer</span>
+  <span>💻 coder</span>
+  <span>🤯 educator 🎓</span>
+  <span>📖 bibliophilic &#10083;&#65039; philosopher 💭</span>
+  <span>⏳🔙📜 historian</span>
+  <span>🔎🧠 skeptic</span>
+  <span>🎲 gamer</span>
+  <span>🧙🏼‍♂️ lifelong learner… 📚</span> -->
+</div><hr>
 <!-- B.F. Griffith’s biographical summary -->
 
 🧔🏽 _Menschliches, Allzumenschliches_ ꞉ **B.F. Griffith** is just another middle-aged nerdy intellectual with too many hobbies and never enough time for them all; he’s a verbose, sardonic, discerning, skeptical, and sometimes cynical iconoclast－but also a convivial, amiable, voluptuary, and humanistic Epicurean. As a former history teacher and longtime student of philosophy with a keen interest in historiography, he spends much of his free time happily dwelling in the past (or in fantastical worlds of his own imagining), and he is an insatiable bibliophile. 📖&#9829;&#65039;
@@ -76,18 +88,6 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
   <h3>Ben Forbes Griffith &#10137; <a id="T_handle" href="https://twitter.com/BFGriffith" target="_blank"><span><img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = "> @BFGriffith</span></a>
   </h3>
 </p>
-<div style="font-family: 'Comfortaa', 'Rajdhani';">
-  <span id="author_biographical_summation_tags"></span>
-  &VeryThinSpace;
-  <!-- <span>✍🏼 writer</span>
-  <span>💻 coder</span>
-  <span>🤯 educator</span>
-  <span>📖 bibliophilic &#10083;&#65039; philosopher 💭</span>
-  <span>⏳🔙📜 historian</span>
-  <span>🔎🧠 skeptic</span>
-  <span>🎲 gamer</span>
-  <span>🧙🏼‍♂️ lifelong learner… 📚</span> -->
-</div>
 <hr>
 <div>
   <h1 
@@ -113,13 +113,13 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
       <h2 
         class="accordion_header" 
         title="“Tenet insαnαbile multos scribendi cαcœthes.” －Iuvenαlis Sάturæ (Sαtires of “Juvenαl” [Decimus Junius Juvenalis])">The Lifelong Ambitions of an Aspiring Author...</h2>
-      <p class="accordion_body" style="margin-bottom:0;">Find out more about the ongoing progress of B.F. Griffith’s burgeoning <a href="{{site.baseurl}}writing-portfolio/">creative writing</a>, worldbuilding, and mythopœία projects!
+      <p class="accordion_body" style="margin-bottom:0;">Find out more about the ongoing progress of B.F. Griffith’s burgeoning <a href="{{site.baseurl}}writing-portfolio/">creative writing</a>, worldbuilding, and mythopœία projects! 📝
       </p>
       <ul>
         <li>
           <span style="float:left;">
           <a href="{{site.baseurl}}writing-portfolio/">Ɛxoτerran Légion Chronicles</a></span>
-          <span style="float:right;">⟦“speculative” alternate history military science-fiction⟧</span>
+          <span style="float:right;">⟦“speculative” alternate-history military science-fiction⟧</span>
         </li>
         <li style="clear:both;">
           <span style="float:left;">
@@ -129,7 +129,7 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
         <li style="clear:both;">
           <span style="float:left;">
           <a href="{{site.baseurl}}writing-portfolio/">Æromariner Corsair Chronicles</a></span>
-          <span style="float:right;">⟦“Steampunk” ⤳ “Dieselpunk” swashbuckling adventures with elements of “Cosmic” Lovecraftian horror⟧</span><br style="clear:both;">
+          <span style="float:right;">⟦“Steampunk” ⤳ “Dieselpunk” swashbuckling “pulp” adventures with elements of “Cosmic” Lovecraftian horror⟧</span><br style="clear:both;">
         </li>
       </ul>
     </div>
@@ -141,10 +141,10 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
     <div class="accordion_content">
       <h2 
         class="accordion_header" 
-        title="“The Road goes ever on and on, Down from the door where it began. Now far ahead the Road has gone, And I must follow, if I can…”">“An Unexpected Journey”
-        <br>Into Web-Development꞉
+        title="“The Road goes ever on and on, Down from the door where it began. Now far ahead the Road has gone, And I must follow, if I can…”">“An Unexpected Journey”
+        <br>into Web-Development꞉
       </h2>
-      <p class="accordion_body">Learn more about B.F. Griffith’s midlife transition into a challenging and rewarding second career as a full-stack web-developer by reading some of his occasional public <a href="{{base}}/journal/">journaling</a> or checking out his <a href="{{base}}/professional-portfolio/">portfolio of open-source projects</a>﹠<a href="https://github.com/BFGriffith?tab=repositories" target="_blank">code-repositories</a>.&#128187;</p>
+      <p class="accordion_body">Learn more about B.F. Griffith’s midlife transition into a challenging but rewarding second career as a full-stack web-developer by reading some of his occasional public <a href="{{base}}/journal/">journaling</a> or checking out his <a href="{{base}}/professional-portfolio/">portfolio of open-source projects</a>﹠<a href="https://github.com/BFGriffith?tab=repositories" target="_blank">code-repositories</a>. 💻</p>
     </div>
   </div>
   <!-- accordion-panel꞉ teaching -->
@@ -153,11 +153,11 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
     <label for="teaching-panel">🎓 TEACHING꞉</label>
     <div class="accordion_content">
       <h2 class="accordion_header" 
-        title="Senecα the Younger to Lucilius Junior in “Epistulæ Morαles” (50⇢65ᴄᴇ)">“Docendo Discimus”</h2>
+        title="Senecα the Younger to Lucilius Junior in “Epistulæ Morαles” (50⇢65ᴄᴇ)">“Docendo Discimus”</h2>
       <div class="accordion_body">
-        <p>Mr. Griffith was proud to serve for almost a decade as a public schoolteacher in various capacities, but mostly he taught ninth through twelfth graders such classes as Advanced Placement world history, world history, American history, “global studies”／geography, American government, and economics (including honors level versions of nearly all of those classes).</p>
-        <p>As a member of Florida’s 2009 first-place High School Literacy Leadership Team of the year, B.F. Griffith fostered excellence in literacy education and contributed to the continuous improvement of students’ reading-comprehension and writing skills, encouraged enthusiasm for unassigned reading as well as abiding lifelong enjoyment of books, conducted and participated in faculty professional development sessions focused on teaching reading, and enhanced the overall literary rigor of the academic environment in which he taught.</p>
-        <p>Mr. Griffith also volunteered for seven years as Chess club coach as well as faculty-facilitator of an after-school Fine-Arts club, since the school where he taught lacked any formal visual-arts program (so the club was a great opportunity to teach interested students basic drawing and painting fundamentals in addition to more advanced techniques of perspective, proportion, composition, blending, and shading). Comic book nerds, Anime enthusiasts, and aspiring young artists are extremely inspiring and rewarding people to mentor, and they tend to be some of the best and most promising minds of their generation.</p>
+        <p>&emsp;Mr. Griffith was proud to serve for almost a decade as a public schoolteacher in various capacities, but mostly he taught ninth through twelfth graders such classes as Advanced Placement world history, world history, American history, “global studies”／geography, American government, and economics (including honors level versions of nearly all of those classes).</p>
+        <p>📖 As a member of Florida’s 2009 first-place High School Literacy Leadership Team of the year, B.F. Griffith fostered excellence in literacy education and contributed to the continuous improvement of students’ reading-comprehension and writing skills, encouraged enthusiasm for unassigned reading as well as abiding lifelong enjoyment of books, conducted and participated in faculty professional development sessions focused on teaching reading, and enhanced the overall literary rigor of the academic environment in which he taught.</p>
+        <p>♟️ Mr. Griffith also volunteered hundreds of hours of his time serving for seven years as Chess club coach as well as faculty-facilitator of an after-school Fine-Arts club, since the school where he taught lacked any formal visual-arts program (so the club was a great opportunity to teach interested students basic drawing＆painting fundamentals in addition to more advanced techniques of perspective, proportion, composition, blending, and shading). Comic book nerds, Anime enthusiasts, and aspiring young artists are extremely inspiring and rewarding people to mentor, and they tend to be some of the best and most promising minds of their generation! 🎨</p>
       </div>
     </div>
   </div>
@@ -170,9 +170,9 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
         title="－Isaac Asimov">“Education isn’t something you can finish…” 🎓</h2>
       <ul class="accordion_body">
         <li>B.F. Griffith was fortunate enough to experience most of his primary and secondary schooling at <a href="https://www.mvcds.org/" target="_blank" style="font-weight:bold;">Maumee Valley Country Day school</a> in Northwest Ohio, an idyllic and nurturingly rigorous extremely creative independent liberal-arts preparatory environment with an extraordinarily worldly pluralistic outlook and inquisitive Deweyan pedagogy.</li>
-        <li>As an undergraduate, B.F. Griffith earned a Bachelor of Arts degree from <a href="https://www.hamilton.edu/" target="_blank" style="font-weight:bold;">Hamilton College</a> in “upstate” Clinton, New York (near Utica) on May 25, 2003, majoring in <span style="font-style:italic;">philosophy</span> with a <span style="font-style:italic;">history</span> minor.</li>
-        <li>Subsequently, B.F. Griffith earned a Master of Arts in Teaching degree from <a href="https://www.bennington.edu/" target="_blank" style="font-weight:bold;">Bennington College</a> in the beautiful Green Mountains of Southwestern Vermont on June 4, 2005, before serving as an educator (mostly teaching history) for nearly a decade.</li>
-        <li>Before commencing his second career as a web-developer (and in addition to many eBooks and autodidactic online tutorials), B.F. Griffith studied front-end web-development at <a href="https://www.bloc.io/learn-to-code/bc/the-iron-yard" target="_blank" style="font-weight:bold;">The Iron Yard Academy</a> coding-bootcamp in Orlando, Florida from May 4 through July 24 of 2015, followed by also completing the <a href="https://bootcamp.ce.ucf.edu/coding/" target="_blank" style="font-weight:bold;">UCF Coding Bootcamp</a> studying “full-stack” web-development at the Sanford／Lake Mary satellite campus of Seminole State College from March 28 through September 28 of 2016.</li>
+        <li>As an undergraduate, B.F. Griffith earned a Bachelor of Arts degree from <a href="https://www.hamilton.edu/" target="_blank" style="font-weight:bold;">Hamilton College</a> in “upstate” Clinton, New York (near Utica) on May 25, 2003, majoring in <span style="font-style:italic;font-weight:bold;">philosophy</span> with a <span style="font-style:italic;font-weight:bold;">history</span> minor.</li>
+        <li>Subsequently, B.F. Griffith earned a Master of Arts in Teaching <span style="font-style:italic;font-weight:bold;">History Education</span> degree from <a href="https://www.bennington.edu/" target="_blank" style="font-weight:bold;">Bennington College</a> in the beautiful Green Mountains of Southwestern Vermont on June 4, 2005, before serving as an educator (mostly teaching history) for nearly a decade.</li>
+        <li>Before commencing his second career as a web-developer (and in addition to many eBooks＆autodidactic online tutorials), B.F. Griffith studied an intensive front-end web-development curriculum taught by the amazingly talented <a href="https://github.com/al-the-x" target="_blank">David Rogers</a> at <a href="https://www.bloc.io/learn-to-code/bc/the-iron-yard" target="_blank" style="font-weight:bold;">The Iron Yard Academy</a> coding-bootcamp in Orlando, Florida from May 4 through July 24 of 2015, followed by also completing the <a href="https://bootcamp.ce.ucf.edu/coding/" target="_blank" style="font-weight:bold;">University of Central Florida Coding Bootcamp</a> studying “full-stack” web-development at the Sanford／Lake Mary satellite campus of Seminole State College from March 28 through September 28 of 2016.</li>
       </ul>
     </div>
   </div>
@@ -267,7 +267,7 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
   </div>
 </div><!-- .accordion -->
 
-# CONTACT the author꞉
+# CONTACT the author 📨
 <img style="float: right;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="110px" width="auto" />
 <p class="message"><span>Have questions or want to contact B.F. Griffith?<br>Please feel free to </span>
   <a 

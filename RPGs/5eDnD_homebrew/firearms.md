@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5eD&D Firearms Mechanics and Homebrew House-Rules Options&colon;
+title: 5ₑ D＆D Firearms Mechanics＋Homebrew House-Rules Options&colon;
 permalink: /RPGs/homebrew/firearms/
 ---
 
@@ -25,7 +25,7 @@ permalink: /RPGs/homebrew/firearms/
       </ul>
     </li>
     <li><strong>DISARM</strong> (DMGpage271): A creature can use a weapon-attack to knock a weapon or another item from a target’s grasp. The attacker makes an attack-roll contested by the target’s Strength(Athletics) check or Dexterity(Acrobatics) check. If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the item. The attacker has disadvantage on its attack-roll if the target is holding the item with two or more hands. The target has advantage on its ability-check if it’s larger than the attacking creature, or disadvantage if it’s smaller.</li>
-    <li>P.S. — There’re other expanded combat options on 5eDMG pages 271 and 272 which the DM is willing to consider allowing if players want to try them (or may consider experimenting with utilizing them for NPC adversaries).</li>
+    <li>P.S. — There’re other expanded combat options on 5ₑ DMG pages 271＆272 which the DM is willing to consider allowing if players want to try them (or may consider experimenting with utilizing them for NPC adversaries).</li>
   </ul>
   <p>
     <img 
