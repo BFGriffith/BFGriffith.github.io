@@ -70,27 +70,12 @@ table { border-top: 2px solid #515151 !important; }
   .codingTableCell:nth-of-type(3):before { content:"\01f468\00200d\01f4bblanguage(s):"; }
   .codingTableCell:nth-of-type(4):before { content:"\01f441\01f441code:"; }
 }
-#pansophical_pursuits_description {
-  display: -webkit-flex;    
-  display: -ms-flexbox;   
-  display: flex;
-  overflow: none;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-#pansophical_pursuits_description .col:nth-child(1) {
-  flex: 7;
-  flex-shrink: 2;
-}
-#pansophical_pursuits_description .col:nth-child(2) {
-  margin-left: auto;
-  margin-right: 0;
-  margin-top: 1rem;
-  text-align: right;
-  flex: initial;
-  flex-shrink: 1;
-  align-self: self-end;
-}
+.text-swap { font-family: 'Space Mono', monospace; }
+@media
+  only screen 
+  and (max-device-width: 1024px) {
+    #featuredSection, #featuredSection > article { flex-wrap:wrap !important; }
+  }
 </style>
 <!-- BFGriffith.github.io HOMEPAGE -->
 <h1 
@@ -110,29 +95,44 @@ table { border-top: 2px solid #515151 !important; }
     <a href="{{site.baseurl}}about/">Ben Forbes Griffith</a>!
   </span>
 </p>
-<p style="text-align:center;margin-left:20%;margin-right:20%;">
-  <a href="https://bfgriffith.github.io/pansophical-pursuits/">
-    <img 
-      src="/IMAGES/Pansophical_Pursuits_LOGO.png" 
-      style="margin: 0 auto;border-radius:33.333%;" 
-      height="40%" width="40%" 
-      alt="Pansophical Pursuits logo image" />
-  </a>
-</p>
-<div id="pansophical_pursuits_description">
-  <a 
-    href="https://bfgriffith.github.io/pansophical-pursuits/"
-    style="text-decoration:none;" 
-    class="col">Click here to explore the primary “intellectual cyclopedia” compendium of wide-ranging philosophical, historical, political, artisanal, technical, or otherwise generally educationally inquisitive short-form creative works presented in formats most easily digestibly curated by topic within the overarching umbrella of B.F. Griffith’s lifelong multidisciplinary <strong>“Pansophical Pursuits”</strong> project:&nbsp;
-  </a>
-  <div class="col">
-    <a 
-      href="https://bfgriffith.github.io/pansophical-pursuits/"
-      class="rainbow-button" 
-      style="font-size:20px!important;color:black;font-family:'Londrina Shadow', sans-serif;">❔Sapere Aude❕
+<section id="featuredSection" style="display:flex;gap: 10px 10px;">
+  <article style="display:flex;gap: 10px 10px;justify-content:space-between;align-items:center;">
+    <a href="https://pansophos.github.io" style="flex:0 0 250px;">
+      <img 
+        src="/IMAGES/PANSOPHOS.png" 
+        style="margin: 0 auto;border-radius:33.333%;" 
+        height="250px" width="250px" 
+        alt="πάνσοφος ≍ Pansophos logo image" />
     </a>
-  </div>
-</div>
+    <a 
+      href="https://pansophos.github.io"
+      style="flex:2 3;text-decoration:none;">Click here to explore the primary “intellectual cyclopedia” compendium of wide-ranging philosophical, historical, political, artisanal, technical, or otherwise generally educationally inquisitive short-form creative works presented in formats most easily digestibly curated by topic within the overarching umbrella of B.F. Griffith’s lifelong multidisciplinary <strong class="text-swap" data-text-swap="Pansophos">πάνσοφος</strong> project:&nbsp;
+    </a>
+    <a 
+      href="https://pansophos.github.io"
+      class="rainbow-button" 
+      style="flex:0 0;font-size:20px!important;color:black;font-family:'Londrina Shadow', sans-serif;">❔Sapere Aude❕
+    </a>
+  </article>
+  <article style="display:flex;gap: 10px 10px;justify-content:space-between;align-items:center;">
+    <a href="https://pansophos.github.io/LOGOS/" style="flex:0 0 200px;">
+      <img 
+        src="/IMAGES/LOGOS.png" 
+        style="margin: 0 auto;border-radius:33.333%;" 
+        height="auto" width="200px" 
+        alt="λόγος ≍ LÓGOS logo image" />
+    </a>
+    <a 
+      href="https://pansophos.github.io/LOGOS/" 
+      style="flex:3 0;text-decoration:none;"><span id="LogosTXT">“We should let ourselves be guided by what is common to all… Yet, although the Lógos is common to all, most people live as if each of them had their own private understanding.” － Heraclitus of Ephesus</span>
+    </a>
+    <a 
+      href="https://pansophos.github.io"
+      class="rainbow-button" 
+      style="flex:0 0;align-content:flex-end;font-size:20px!important;color:#002B4D;font-family:'Space Mono';">Πάντα ῥεῖ
+    </a>
+  </article>
+</section>
 <hr style="margin-top:2rem;">
 <p 
   style="font-size:0.75rem;"
@@ -382,4 +382,23 @@ document.querySelectorAll(".rainbow-button").forEach((button) => {
     button.classList.remove("start");
   });
 });
+// Pansophos text toggle
+var toggleMenuTXT = document.querySelectorAll(".text-swap")[0];
+const togglePansophos = function togglePansophosTXTfn() {
+  if (toggleMenuTXT.getAttribute("data-text-swap") == toggleMenuTXT.innerHTML) {
+    toggleMenuTXT.innerHTML = toggleMenuTXT.getAttribute("data-text-original");
+  } else {
+    toggleMenuTXT.setAttribute("data-text-original", toggleMenuTXT.innerHTML);
+    toggleMenuTXT.innerHTML = toggleMenuTXT.getAttribute("data-text-swap");
+  }
+}
+setInterval(togglePansophos, 1500)
+
+const logosText = document.getElementById("LogosTXT");
+logosText.onmouseover = function () {
+  logosText.innerHTML = "διὸ δεῖ ἕπεσθαι τῷ (ξυνῷ, τουτέστι τῷ) κοινῷ· ξυνὸς γὰρ ὁ κοινός. τοῦ λόγου δὲ ἐόντος ξυνοῦ ζώουσιν οἱ πολλοὶ ὡς ἰδίαν ἔχοντες φρόνησιν. － Ἡράκλειτος ὁ Ἐφέσιος";
+};
+logosText.onmouseout = function () {
+  logosText.innerHTML = "“We should let ourselves be guided by what is common to all… Yet, although the Lógos is common to all, most people live as if each of them had their own private understanding.” － Heraclitus of Ephesus";
+};
 </script>

@@ -77,15 +77,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </div><hr>
 <!-- B.F. Griffith’s biographical summary -->
 
-🧔🏽 _Menschliches, Allzumenschliches_ ꞉ **B.F. Griffith** is just another middle-aged nerdy intellectual with too many hobbies and never enough time for them all; he’s a verbose, sardonic, discerning, skeptical, and sometimes cynical iconoclast－but also a convivial, amiable, voluptuary, and humanistic Epicurean. As a former history teacher and longtime student of philosophy with a keen interest in historiography, he spends much of his free time happily dwelling in the past (or in fantastical worlds of his own imagining), and he is an insatiable bibliophile. 📖&#9829;&#65039;
+🖖🏼 _**Menschliches, Allzumenschliches**_ ꞉ In addition to skillfully plying his trade for nearly a decade as an adept [full-stack practitioner of the coding arts ⟦working mostly on building, maintaining, or deploying enterprise scale web-applications⟧](/professional-portfolio/), **B.F. Griffith** is just another middle-aged nerdy intellectual with too many hobbies and never enough time for them all! He’s a verbose, sardonic, discerning, skeptical, rigorously logical, and sometimes cynical iconoclast－but also a convivial, amiable, voluptuary, and humanistic Epicurean who loves the serenity of a tranquil garden or a breezy day out on the water. As a former history teacher and longtime student of philosophy with a keen interest in historiography, he spends much of his free time happily delving into the past (or into fantastical worlds of his own imagining), and he is an insatiable bibliophile. 📖&#9829;&#65039;
 
-Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural experience for him－featuring such awesome highlights as the world-class Toledo Museum of Art or the irreplaceable Rusty’s Jazz Cafe 🎷 (which featured live music every night for almost 40 years)－as well as plenty more to do in nearby Ann Arbor, Michigan.
+Growing up in Toledo, Ohio was a beautifully vibrant artistic＆cultural experience for him－featuring such awesome highlights as the world-class Toledo Museum of Art or the irreplaceable Rusty’s Jazz Cafe 🎷 (which featured live music every night for almost 40 years)－as well as plenty more to do in nearby Ann Arbor, Michigan.
 
 <p>⛵ Also, due to its proximity to the Western end of Lake Erie, it was a great region in which to learn to sail and enjoy dinghy racing and freshwater cruising－especially to nearby Put-in-Bay on South Bass Island as well as Cedar Point (near Sandusky), the roller-coaster capital of the world! 🎢</p>
-<p>During his boyhood and most of his primary and secondary schooling, B.F. Griffith was extremely fortunate to attend <a href="https://www.mvcds.org/" target="_blank">Maumee Valley Country Day school</a>, an idyllic and nurturingly rigorous extremely creative independent liberal-arts environment with an extraordinarily worldly pluralistic outlook and inquisitive Deweyan pedagogy. Indeed, while he was privileged to have many inspirational intellectual influences throughout his youth, it’s no exaggeration to acknowledge that this school changed his life－and that many of the personal qualities, interests, and habits of mind that bring him the most joy, and have most enduringly shaped his intellect, would definitely not be nearly so thoroughly cultivated or as deeply ingrained and abiding capabilities or characteristics if he’d been educated elsewhere. In a more just world than the one we live in, everyone should be so lucky as to have such exceptional educational opportunities, which ideally always ought to be about so much more than merely basic “professional” or career skills competency training at minimal cost to taxpayers.</p>
+<p>During his boyhood and most of his primary＆secondary schooling, B.F. Griffith was extremely fortunate to attend <a href="https://www.mvcds.org/" target="_blank">Maumee Valley Country Day school</a>, an idyllic and nurturingly rigorous extremely creative independent liberal-arts environment with an extraordinarily worldly pluralistic outlook and inquisitive Deweyan pedagogy. Indeed, while he was privileged to have no shortage of inspirationally formative intellectual influences throughout his youth, it’s no exaggeration to acknowledge that this school changed his life－such that many of the personal qualities, interests, and habits of mind that bring him the most joy, or have most enduringly shaped his intellect, would definitely not be nearly so thoroughly cultivated or as deeply ingrained＆abiding capabilities or characteristics if he’d been educated elsewhere. In a more just world than the one we live in, everyone should be so lucky as to have such exceptional educational opportunities, which ideally always ought to be about so much more than merely basic “professional” or career skills competency training at minimal cost to taxpayers.</p>
 <p>Anyway, as an adult, Mr. Griffith has thus far ended up settling-down in Central Florida, where he resides with his wife and several pets, surrounded by plenty of vibrant local creative cultural entertainment venues to enjoy in addition to being situated within easy drive of many delightful freshwater cool springs as well as a plethora of famous beaches along both the Atlantic﹠Gulf coasts. 🌊🏖</p>
 <p class="lead">
-  <h3>Ben Forbes Griffith &#10137; <a id="T_handle" href="https://twitter.com/BFGriffith" target="_blank"><span><img id="bluebird" src="/IMAGES/bluebird.png" alt="Twitter handle = "> @BFGriffith</span></a>
+  <h3>Ben Forbes Griffith &#10137; <a href="https://github.com/BFGriffith" target="_blank"><span><img id="bluebird" src="/IMAGES/octocat.svg" alt="GitHub"><img id="bluebird" src="/IMAGES/mind-map.png" alt="repositories"></span></a>
   </h3>
 </p>
 <hr>
@@ -266,13 +266,24 @@ Growing up in Toledo, Ohio was a beautifully vibrant artistic and cultural exper
     </div>
   </div>
 </div><!-- .accordion -->
+<br><br>
+
+# SUPPORT ❤️
+<img style="float:right;margin:20px 10px 0 0;" src="/IMAGES/bmc_qr.png" alt="support BFGriffth" height="100px" width="auto" />
+<p class="message"><span>If you find B.F. Griffith’s work to be sufficiently valuable／useful to you that you would be willing to help fund it at whatever level (if any) that you think it’s worth (and can comfortably afford to spare), </span><a 
+    href="https://www.BuyMeACoffee.com/BFGriffith" 
+    target="_blank">BuyMeACoffee.com/BFGriffith</a> is the easiest, least onerous, and most direct way to do so…
+</p>
+<p class="lead" style="text-align:center;">vobis omnibus gratias ago</p>
+<br>
 
 # CONTACT the author 📨
 <img style="float: right;" src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="110px" width="auto" />
-<p class="message"><span>Have questions or want to contact B.F. Griffith?<br>Please feel free to </span>
-  <a 
-    href="https://twitter.com/BFGriffith" 
-    target="_blank">message or ask him on Twitter🐦</a>…
+<p class="message"><span>Have questions or want to contact B.F. Griffith?<br>Please feel free to ask or message him on </span><a 
+    href="https://mod.reddit.com/mail/create" 
+    target="_blank">Reddit</a> or <a 
+    href="https://www.LinkedIN.com/in/BFGriffith/" 
+    target="_blank">LinkedIN</a>…
 </p>
 <p>Thanks for reading! &#9829;&#65039;</p>
 <hr>

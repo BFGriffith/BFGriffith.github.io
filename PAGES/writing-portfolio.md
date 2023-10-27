@@ -65,13 +65,18 @@ table { border-top: 2px solid #515151 !important; }
 
 <div id="writing_portfolio_description">
   <div class="col">
-    <p>Coming soon: find out more about B.F. Griffith’s most extensive and ambitious ongoing long-form creative-writing＆worldbuilding projects currently under active creative development whenever he can find the time to work on them… The following prospective series each have at least one novel thoroughly outlined as well as substantial progress of at least several chapters working toward a first draft, but more extensive details will follow once closer to fully completing publications in any of the following settings／series:</p>
+    <ul>
+      <li>This page is the official summary compendium indexing B.F. Griffith’s most extensive＆ambitious ongoing long-form creative-writing＆worldbuilding projects gradually under continuous creative development whenever he can find some free time to work on them…</li>
+      <li>The following prospective series each have at least one novel plotline thoroughly outlined as well as substantial progress of at least several chapters or much more working toward a first draft, plus various tabletop roleplaying-game “homebrew” campaigns playtesting collaboratively exploring adventures in each of their distinctive genres＆settings－but naturally more extensive details will follow once these projects progress closer to fully completing major publications in any of the following settings／series:</li>
+    </ul>
   </div>
   <div class="col">
     <img src="/IMAGES/BFGriffith_cartoon.png" alt="BFGriffth cartoon portrait" height="150px" width="auto" />
   </div>
 </div>
-<br>
+<div style="display:flex;justify-content:center;">
+  <img src="/IMAGES/Griffin_sleeping.png" alt="sleeping Griffin" height="auto" width="500px" style="margin:0;" />
+</div>
 <table role="table">
   <thead role="rowgroup">
     <tr role="row">
